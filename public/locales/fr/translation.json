@@ -1,1 +1,704 @@
 
+
+{
+  "header": {
+    "home": "Accueil",
+    "whitepaper": "Livre Blanc",
+    "contact": "Contact",
+    "login": "Connexion",
+    "signup": "S'inscrire",
+    "dashboard": "Tableau de bord",
+    "logout": "Déconnexion",
+    "welcome": "Bienvenue, {{name}}",
+    "launch_app": "Lancer l'application",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "pre_title": "Infrastructure DeFi modulaire de nouvelle génération<br/>pour une finance évolutive et sans permission.",
+      "title": "Possédez votre valeur.<br/>Développez votre<br/>réseau.",
+      "tagline": "$OPTIV est notre réserve de valeur alimentée par OPTIVision",
+      "cta": "COMMENCER - FRAIS UNIQUE DE 50 £"
+    },
+    "ideas_section": {
+      "title": "Donner vie aux<br/>idées",
+      "subtitle": "Protocole Optivus : la façon la plus intelligente de gagner. Stakez,<br/> parrainez et grandissez avec $OPTIV — l'actif de nouvelle génération<br/> pour un revenu passif et une valeur à long terme."
+    },
+    "vision_section": {
+      "title": "OPTIVision",
+      "feature1_title": "Achetez $OPTIV. Direct, rapide, sécurisé.",
+      "feature1_desc": "Le protocole Optivus simplifie l'investissement dans votre avenir – pas de tiers, pas de retards. Achetez $OPTIV instantanément sur place en toute transparence et avec un contrôle total.",
+      "feature2_title": "Parrainez avec Optivus. Gagnez sans limites.",
+      "feature2_desc": "Le protocole Optivus transforme votre réseau en un moteur de croissance avec des parrainages intelligents alimentés par la blockchain. Partagez. Gagnez. Développez – sans effort et en toute transparence, avec des récompenses auxquelles vous pouvez faire confiance.",
+      "feature3_title": "Stakez $OPTIV. Grandissez avec un but.",
+      "feature3_desc": "Le protocole Optivus renforce votre avenir financier avec une infrastructure Web3 sécurisée et évolutive. Gagnez des récompenses tout en soutenant l'innovation blockchain de nouvelle génération – rapide, fiable et conçue pour durer."
+    }
+  },
+  "footer": {
+    "about": "À propos / Livre Blanc",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "follow_us": "Suivez-nous sur",
+    "copyright": "© {{year}} Optivus Protocol. Tous droits réservés."
+  },
+  "common": {
+    "backToHome": "Retour à l'accueil",
+    "copied": "Copié !",
+    "copy": "Copier",
+    "or": "Ou",
+    "status": {
+      "completed": "Terminé",
+      "pending": "En attente",
+      "failed": "Échoué",
+      "active": "Actif",
+      "frozen": "Gelé",
+      "paused": "En pause"
+    }
+  },
+  "forms": {
+    "errors": {
+      "passwordsDoNotMatch": "Les mots de passe ne correspondent pas.",
+      "generic": "Veuillez corriger les erreurs avant de soumettre.",
+      "usernameTaken": "Le nom d'utilisateur est déjà pris.",
+      "referralCodeRequired": "Un code de parrainage est requis.",
+      "fieldRequired": "Ce champ est obligatoire."
+    }
+  },
+  "loginPage": {
+    "title": "Content de vous revoir !",
+    "subtitle": "Connectez-vous avec vos informations personnelles pour accéder au tableau de bord utilisateur.",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount": "Vous n'avez pas de compte ? ",
+    "signUp": "S'inscrire",
+    "areYouAdmin": "Êtes-vous un administrateur ? ",
+    "adminLogin": "Connexion administrateur",
+    "form": {
+      "email": "Email",
+      "password": "Mot de passe"
+    },
+    "2fa": {
+      "title": "Saisir le code 2FA",
+      "subtitle": "Saisissez le code de votre application d'authentification pour continuer.",
+      "label": "Code 2FA"
+    },
+    "buttons": {
+      "login": "Se connecter",
+      "verify": "Vérifier"
+    }
+  },
+  "signupPage": {
+    "authLayout": {
+      "title": "Rejoignez le protocole Optivus",
+      "subtitle": "Créez votre compte pour commencer à gagner des commissions."
+    },
+    "details": {
+      "title": "Créer un compte",
+      "subtitle": "Utilisez votre code de parrainage et ajoutez vos informations personnelles pour créer votre propre compte Optivus Protocol.",
+      "usernameChecking": "Vérification...",
+      "usernameAvailable": "Le nom d'utilisateur est disponible !",
+      "usernameTaken": "Le nom d'utilisateur est déjà pris.",
+      "referralCodePlaceholder": "Code de Parrainage",
+      "button": "Créer",
+      "hasAccount": "Vous avez déjà un compte ? "
+    },
+    "payment": {
+      "button": "OBTENIR L'ACCÈS"
+    },
+    "paymentModal": {
+      "title": "Finalisez votre inscription",
+      "subtitle": "Des frais uniques de 50 £ vous seront facturés.",
+      "cardholderName": "Nom du titulaire de la carte",
+      "cardNumber": "Numéro de carte",
+      "cardNumberPlaceholder": "0000 0000 0000 0000",
+      "expiry": "Expiration (MM/AA)",
+      "expiryPlaceholder": "MM/AA",
+      "cvc": "CVC",
+      "cvcPlaceholder": "123",
+      "button": "Payer 50 £ en toute sécurité"
+    }
+  },
+  "forgotPasswordPage": {
+    "title": "Mot de passe oublié ?",
+    "subtitle": "Pas de problème. Saisissez votre e-mail pour recevoir un lien de réinitialisation.",
+    "button": "Envoyer le lien de réinitialisation",
+    "rememberPassword": "Vous vous souvenez de votre mot de passe ? ",
+    "success": {
+      "title": "Vérifiez votre e-mail",
+      "message": "Si un compte avec cet e-mail existe, un lien de réinitialisation de mot de passe a été envoyé.",
+      "button": "Retour à la connexion"
+    }
+  },
+  "resetPasswordPage": {
+    "title": "Définir un nouveau mot de passe",
+    "subtitle": "Saisissez et confirmez votre nouveau mot de passe ci-dessous.",
+    "newPassword": "Nouveau mot de passe",
+    "confirmNewPassword": "Confirmer le nouveau mot de passe",
+    "button": "Réinitialiser le mot de passe",
+    "errorToken": "Aucun jeton de réinitialisation trouvé. Veuillez demander un nouveau lien de réinitialisation.",
+    "success": {
+      "title": "Mot de passe réinitialisé !",
+      "button": "Retour à la connexion"
+    }
+  },
+  "contactPage": {
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez une question ou besoin d'aide ? Remplissez le formulaire ci-dessous et notre équipe vous répondra rapidement.",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre e-mail",
+      "subject": "Sujet",
+      "message": "Message",
+      "button": "Envoyer le message"
+    },
+    "success": {
+      "title": "Message envoyé !",
+      "message": "Votre message a été reçu. Nous vous répondrons dans les 24 heures."
+    }
+  },
+  "faqPage": {
+    "title": "Questions fréquemment posées",
+    "faqs": [
+      {
+        "question": "Qu'est-ce que le protocole Optivus ?",
+        "answer": "Le protocole Optivus est un système de marketing d'affiliation décentralisé à plusieurs niveaux. Il permet aux utilisateurs de gagner des commissions en parrainant d'autres personnes sur la plateforme via un lien de parrainage unique."
+      },
+      {
+        "question": "Comment puis-je m'inscrire ?",
+        "answer": "Vous pouvez vous inscrire en vous inscrivant et en payant des frais d'entrée uniques de 50 £. Cela active votre compte et vous donne un lien de parrainage unique à partager où vous avez ensuite accès au Discord exclusif pour obtenir des récompenses."
+      },
+      {
+        "question": "Les frais de 50 £ sont-ils remboursables ?",
+        "answer": "Non, comme indiqué dans nos conditions d'utilisation, les frais d'entrée ne sont pas remboursables. Ils sont immédiatement utilisés pour financer les paiements des commissions et couvrir les coûts opérationnels du protocole."
+      },
+      {
+        "question": "À quoi servent les frais d'inscription ?",
+        "answer": "Les coûts opérationnels du serveur et une grande partie sont reversés à la communauté via des rachats d'OPTIV et distribués équitablement dans les concours communautaires."
+      },
+      {
+        "question": "Qu'est-ce que le KYC ?",
+        "answer": "Le KYC (Know Your Customer) est un processus de vérification requis pour les retraits en monnaie fiduciaire (banque) afin de se conformer aux réglementations financières. Il implique la soumission de documents d'identité. Les retraits de crypto-monnaies ne nécessitent pas de KYC."
+      },
+      {
+        "question": "Mes données sont-elles sécurisées ?",
+        "answer": "Oui, nous prenons la sécurité au sérieux. Nous utilisons des mesures standard de l'industrie pour protéger vos données. Pour une sécurité renforcée, nous vous recommandons vivement d'activer l'authentification à deux facteurs (2FA) dans les paramètres de votre compte."
+      },
+      {
+        "question": "Comment puis-je rejoindre Discord ?",
+        "answer": "Discord est réservé à ceux qui s'inscrivent sur notre site Web OPTiVision où un lien direct sera fourni pour garantir que ceux qui ont contribué sont les seuls bénéficiaires des cadeaux."
+      },
+      {
+        "question": "Dois-je inviter des gens pour participer aux concours ?",
+        "answer": "Non. Toute personne qui paie ses frais uniques pourra participer aux concours, mais plus vous amenez de personnes, plus vous obtiendrez d'entrées, ce qui augmentera vos chances de gagner des cadeaux OPTIV."
+      }
+    ]
+  },
+  "privacyPage": {
+    "title": "Politique de confidentialité",
+    "sections": [
+      {
+        "title": "1. Informations que nous collectons",
+        "content": [
+          "Nous collectons les informations que vous nous fournissez directement, par exemple lorsque vous créez un compte, complétez votre profil KYC ou nous contactez. Celles-ci peuvent inclure votre nom, votre adresse e-mail et une pièce d'identité émise par le gouvernement.",
+          "Nous collectons également des informations automatiquement lorsque vous utilisez nos services, telles que votre adresse IP, les informations sur votre appareil et l'historique de vos transactions sur notre plateforme."
+        ]
+      },
+      {
+        "title": "2. Comment nous utilisons les informations",
+        "content": [
+          "Nous utilisons les informations que nous collectons pour :",
+          "Fournir, maintenir et améliorer nos services ;",
+          "Traiter les transactions et vous envoyer des informations connexes, y compris des confirmations et des reçus ;",
+          "Vérifier votre identité et prévenir la fraude (KYC) ;",
+          "Communiquer avec vous au sujet des produits, services et événements ;",
+          "Surveiller et analyser les tendances, l'utilisation et les activités liées à nos services."
+        ]
+      },
+      {
+        "title": "3. Partage de données",
+        "content": [
+          "Nous ne vendons pas vos informations personnelles. Nous pouvons partager vos informations avec des fournisseurs et des prestataires de services tiers qui ont besoin d'accéder à ces informations pour effectuer des travaux en notre nom (par exemple, les processeurs de paiement, les services de vérification KYC). Nous pouvons également partager des informations en réponse à une demande d'informations si nous pensons que la divulgation est conforme ou requise par toute loi ou procédure légale applicable."
+        ]
+      },
+      {
+        "title": "4. Sécurité",
+        "content": [
+          "Nous prenons des mesures raisonnables pour aider à protéger les informations vous concernant contre la perte, le vol, l'utilisation abusive et l'accès, la divulgation, l'altération et la destruction non autorisés."
+        ]
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "Livre blanc du protocole Optivus",
+    "version": "Version 1.0 | Juillet 2025",
+    "abstract": {
+      "title": "Résumé",
+      "p1": "Le protocole Optivus fait progresser la prochaine phase du Web3 grâce à une combinaison de tokenomics durables, d'une stratégie d'approvisionnement fixe et d'une croissance menée par la communauté. Conçu pour la stabilité et l'utilité à long terme, le jeton OPTIV privilégie la valeur du monde réel, et non le battage spéculatif. Notre mission est de créer une économie numérique plus digne de confiance et centrée sur l'humain en récompensant une participation significative et en supprimant les mécanismes prédateurs de l'équation Web3."
+    },
+    "introduction": {
+      "title": "1. Introduction",
+      "p1": "L'écosystème Web3 a connu une croissance rapide, mais souvent au détriment de la durabilité à long terme, de la confiance des utilisateurs et de l'utilité significative. Le protocole Optivus introduit une nouvelle norme : un jeton de réserve de valeur (OPTIV) à offre fixe, conscient de la déflation, qui incite à la détention, renforce la participation au réseau et s'aligne sur les principes économiques réels."
+    },
+    "visionMission": {
+      "title": "2. Vision et mission",
+      "visionTitle": "Vision :",
+      "visionText": "Établir OPTIV comme une réserve de valeur numérique moderne - rare, sécurisée et évolutive.",
+      "missionTitle": "Mission :",
+      "missionText": "Autonomiser les utilisateurs grâce à une tokenomique équitable, des récompenses transparentes et un alignement à long terme, en créant un écosystème décentralisé qui profite aux contributeurs, et pas seulement aux premiers adoptants ou aux spéculateurs."
+    },
+    "tokenOverview": {
+      "title": "3. Aperçu du jeton",
+      "name": "Nom du jeton",
+      "symbol": "Symbole",
+      "supply": "Offre totale",
+      "price": "Prix de départ",
+      "liquidity": "Liquidité fournie au lancement",
+      "pairings": "Paires de lancement",
+      "minting": "Politique de frappe",
+      "burn": "Mécanisme de combustion",
+      "staking": "Jalonnement"
+    },
+    "tokenomics": {
+      "title": "4. Conception de la tokenomique",
+      "sovTitle": "4.1 Architecture de réserve de valeur",
+      "sovText": "Contrairement aux jetons volatils basés sur le battage médiatique, OPTIV est conçu pour être détenu :",
+      "sovPoints": [
+        "Offre maximale fixe : 10 milliards d'OPTIV – pas d'inflation.",
+        "Potentiel déflationniste : brûlable via les transactions, les frais ou déclenché par la gouvernance.",
+        "Prêt pour le jalonnement : mécanismes de rendement optionnels via le pool existant, pas d'inflation."
+      ],
+      "sovConclusion": "Ce modèle soutient la confiance à long terme et minimise la volatilité des prix.",
+      "liquidityTitle": "4.2 Stratégie de liquidité",
+      "liquidityText": "Pool de liquidité initial :",
+      "pool1Title": "OPTIV/USDC :",
+      "pool1Text1": "7M OPTIV + 7 000 $ USDC",
+      "pool1Text2": "Fournit une stabilité des prix, idéal pour les détenteurs à long terme",
+      "pool2Title": "OPTIV/SOL :",
+      "pool2Text1": "3M OPTIV + 3 000 $ SOL",
+      "pool2Text2": "Réduit le risque d'exposition au SOL pendant les ralentissements du marché",
+      "liquidityPoints": [
+        "Protège le prix plancher",
+        "Encourage l'adoption de l'utilité",
+        "Réduit l'impact des vidages de jetons"
+      ]
+    },
+    "growthEngine": {
+      "title": "5. Moteur de croissance basé sur les références",
+      "p1": "Les projets de cryptographie traditionnels ne récompensent que les acheteurs. Optivus récompense les contributeurs.",
+      "listTitle": "Points saillants du modèle de parrainage :",
+      "listItems": [
+        "Structure de récompenses à plusieurs niveaux",
+        "Incite à une véritable expansion du réseau",
+        "Renforce la propriété de la communauté"
+      ],
+      "p2": "Ce système rend le processus d'intégration au Web3 inclusif, transparent et centré sur l'humain."
+    },
+    "advancedTokenomics": {
+      "title": "6. Tokenomique avancée avec un but",
+      "listItems": [
+        "Distribution équitable : pas de frappe cachée ni d'allocations d'initiés inéquitables",
+        "Transparence : accès public au flux de jetons, aux réserves et aux récompenses",
+        "Réserves contrôlées par le Trésor : fonds réservés au développement, au marketing et à la stabilisation"
+      ]
+    },
+    "optionalFeatures": {
+      "title": "7. Fonctionnalités optionnelles pour une expansion durable",
+      "burnTitle": "Fonctionnalité de gravure (activation future)",
+      "burnText": "Brûlures manuelles ou automatisées possibles à partir de :",
+      "burnList": [
+        "Frais de transaction",
+        "Utilisation du Trésor",
+        "Propositions de gouvernance"
+      ],
+      "burnGoal": "Objectif : encourager la rareté à long terme et la croissance de la valeur",
+      "stakingTitle": "Système de jalonnement (en cours d'examen)",
+      "stakingList": [
+        "Potentiel de rendement basé sur le blocage",
+        "Pas de nouvelles émissions de jetons — récompenses provenant du pool de jetons existant",
+        "Multiplicateurs pondérés en fonction du temps à l'étude"
+      ]
+    },
+    "positioning": {
+      "title": "8. Positionnement stratégique",
+      "identity": "Identité de base : \"La réserve de valeur moderne : rare, sécurisée, évolutive.\"",
+      "pillarsTitle": "Piliers de la messagerie :",
+      "pillars": [
+        "Rareté + Confiance = Valeur",
+        "Mentalité de conservation pour gagner",
+        "Stabilité > spéculation"
+      ],
+      "taglinesTitle": "Slogans clés :",
+      "taglines": [
+        "\"Construit pour durer. Conçu pour grandir.\"",
+        "\"Optivus : votre avenir sous forme numérique.\"",
+        "\"Une richesse que vous pouvez posséder, pas gonfler.\""
+      ]
+    },
+    "marketFit": {
+      "title": "9. Adéquation au marché et publics cibles",
+      "audienceTitle": "Public—Proposition de valeur",
+      "audiences": [
+        "Détenteurs à long terme—Protection des actifs, offre fixe, options de jalonnement",
+        "Nouveaux venus dans la cryptographie—Conception épurée, cas d'utilisation clair, approche axée sur la confiance",
+        "Utilisateurs de DeFi—Mécanismes avancés, potentiel de coffre-fort/jalonnement",
+        "Publics mondiaux—Couverture contre l'inflation, réserve de valeur sur des marchés instables"
+      ]
+    },
+    "governance": {
+      "title": "10. Gouvernance et communauté",
+      "p1": "Le protocole Optivus est construit sur des principes axés sur la communauté. Les futures mises à jour incluent :",
+      "listItems": [
+        "Prise de décision basée sur la DAO",
+        "Intégrations de jetons de gouvernance",
+        "Systèmes de proposition et de vote"
+      ],
+      "p2": "Tous conçus pour redonner le pouvoir réel aux utilisateurs, et non aux équipes centralisées."
+    },
+    "summary": {
+      "title": "11. Aperçu récapitulatif",
+      "inflation_label": "Inflation",
+      "burn_label": "Capacités de combustion",
+      "staking_label": "Jalonnement",
+      "liquidity_label": "Stratégie de liquidité",
+      "narrative_label": "Récit principal",
+      "ethos_label": "Éthos de lancement",
+      "supply": "10 000 000 000 OPTIV",
+      "inflation": "Aucune (plafond fixe)",
+      "burn": "Facultatif, pas par défaut",
+      "staking": "Facultatif, non dilutif",
+      "price": "0,0001 $",
+      "liquidity": "70 % USDC / 30 % SOL",
+      "narrative": "\"L'or numérique avec une portée dans le monde réel\"",
+      "ethos": "Axé sur la communauté, anti-battage médiatique, axé sur la confiance"
+    },
+    "closing": {
+      "title": "12. Réflexions finales",
+      "p1": "Le protocole Optivus n'est pas juste un autre jeton. C'est un mouvement pour récupérer ce que la crypto était censée être : transparente, équitable et responsabilisante. Avec une tokenomique robuste, une conception durable et des incitations alignées sur la communauté, OPTIV jette les bases d'une économie numérique plus stable et plus enrichissante."
+    }
+  },
+  "termsPage": {
+    "title": "Conditions d'utilisation du programme Optivus Protocol",
+    "lastUpdated": "Dernière mise à jour : 25/07/2025",
+    "intro": "Bienvenue dans le programme de parrainage Optivus Protocol (\"Programme\"). Ce programme est conçu pour récompenser notre communauté pour le partage de l'accès à Optivus et à son écosystème. En participant, vous acceptez de vous conformer à ces conditions d'utilisation (\"Conditions\"). Veuillez les lire attentivement.",
+    "sections": [
+      {
+        "title": "Aperçu",
+        "content": ["Le programme de parrainage Optivus Protocol est une fonctionnalité facultative disponible pour les utilisateurs de la plateforme OPTiVision. En parrainant de nouveaux utilisateurs qui achètent l'accès aux services OPTiVision, les participants peuvent recevoir des récompenses promotionnelles limitées. La participation est entièrement volontaire et n'est pas requise pour accéder à la plateforme."]
+      },
+      {
+        "title": "Avantages de l'accès payant à OPTiVision",
+        "content": ["Tous les utilisateurs payants d'OPTiVision reçoivent :", "Un accès complet à notre communauté Discord exclusive", "Un accès aux tableaux de bord de jalonnement et aux analyses de performance", "L'éligibilité aux airdrops, concours et mises à jour de la communauté", "<i>Remarque : les récompenses de parrainage sont des bonus promotionnels facultatifs et ne font pas partie de l'offre de produits de base d'OPTiVision.</i>"]
+      },
+      {
+        "title": "Structure des récompenses de parrainage",
+        "content": ["Niveaux de récompense", "<strong>Niveau 1 (bonus direct) :</strong> une récompense pour chaque utilisateur parrainé qui s'inscrit et paie.", "<strong>Niveaux 2 à 6 (bonus indirect) :</strong> récompenses pour les parrainages effectués par vos invités, diminuant de 15 % par niveau (par exemple, le niveau 2 reçoit 85 % de la valeur du niveau 1, le niveau 3 reçoit 70 %, etc.).", "Récompenses possibles", "Jetons $OPTIV", "Récompenses de jalonnement améliorées", "Priorité aux airdrops", "Équivalents en espèces promotionnels (via Stripe, PayPal ou d'autres méthodes prises en charge)", "<strong>Important :</strong> toutes les récompenses sont discrétionnaires, leur disponibilité est limitée et elles ne sont pas garanties. Les bonus de parrainage sont sujets à modification, suspension ou annulation à tout moment, à la seule discrétion d'Optivus."]
+      },
+      {
+        "title": "Règles du programme et obligations des participants",
+        "content": ["Ce programme est une campagne promotionnelle, pas une opportunité de revenus ou un programme d'investissement. Les participants doivent accepter ce qui suit :", "La création de plusieurs comptes, la participation à des fraudes ou l'abus du système de parrainage entraîneront une disqualification immédiate.", "Les liens de parrainage ne doivent pas être distribués par le biais de spam, de promotions trompeuses ou en violation des conditions d'utilisation d'Optivus.", "Les participants ne peuvent pas présenter le programme comme une source de revenus garantie ou une opportunité d'investissement.", "Les bonus de parrainage ne dépendent pas du volume de parrainage en aval au-delà du sixième niveau.", "Toutes les activités promotionnelles doivent être conformes aux lois locales, étatiques et internationales."]
+      },
+      {
+        "title": "Avis juridique et de conformité",
+        "content": ["Ce programme ne constitue pas un service financier, une opportunité d'investissement ou un plan de génération de revenus.", "Optivus Protocol ne donne aucune garantie quant à la valeur monétaire ou à la disponibilité de tout bonus de parrainage.", "Les participants sont seuls responsables de la déclaration de toute récompense en tant que revenu imposable, le cas échéant.", "Le programme est nul là où la loi l'interdit. Les participants doivent se conformer à toutes les réglementations locales pertinentes.", "Les bonus de parrainage sont financés par le budget marketing d'Optivus, et non par les paiements d'abonnement des utilisateurs.", "Les jetons $OPTIV et les paiements promotionnels ne représentent pas des titres, des capitaux propres ou des instruments d'investissement.", "La participation est nulle si un utilisateur viole les conditions d'utilisation de la plateforme Optivus."]
+      },
+      {
+        "title": "Cadeaux promotionnels et bonus de lancement",
+        "content": ["Dans le cadre de campagnes marketing, Optivus peut offrir :", "Des cadeaux facultatifs de jetons $OPTIV aux utilisateurs actifs et payants", "Des participations ou des bonus supplémentaires pour les parrainages effectués jusqu'à six niveaux", "Des récompenses de parrainage indirect nominales (niveaux 2 à 6), diminuant de 15 % par niveau pour garantir l'équité et la durabilité", "<i>Avis de non-responsabilité : les cadeaux et les bonus de lancement sont facultatifs et limités dans le temps. Ils n'ont aucune valeur monétaire garantie ou intrinsèque et sont sujets à changement.</i>"]
+      },
+      {
+        "title": "Administration et autorité du programme",
+        "content": ["Optivus se réserve le droit de :", "Modifier, suspendre ou mettre fin au programme à tout moment sans préavis", "Prendre les décisions finales concernant les litiges, les enquêtes sur les fraudes et les évaluations d'éligibilité", "Déterminer l'éligibilité aux bonus, limiter les récompenses et appliquer les règles du programme à sa seule discrétion", "Pour rester éligible aux bonus de parrainage, les participants doivent :", "Maintenir un abonnement OPTiVision payant et actif", "Respecter toutes les politiques de la plateforme Optivus, y compris les conditions d'utilisation", "S'assurer que toutes les activités promotionnelles restent légales et conformes aux directives de la plateforme"]
+      },
+      {
+        "title": "Reconnaissance des conditions",
+        "content": ["En participant au programme de parrainage, vous reconnaissez et acceptez que :", "Vous achetez l'accès aux outils et services d'OPTiVision, et non un produit d'investissement", "Les bonus de parrainage et les cadeaux de jetons sont des incitations promotionnelles facultatives et ne sont pas garantis", "La participation au programme de parrainage est secondaire à l'utilité principale et à l'accès fournis par OPTiVision", "Vous comprenez et acceptez que toutes les récompenses sont discrétionnaires, de nature limitée, et peuvent être modifiées ou révoquées"]
+      }
+    ],
+    "contact": {
+      "title": "Questions et assistance",
+      "p1": "Si vous avez des questions sur le programme de parrainage ou ces conditions, veuillez nous contacter à l'adresse suivante :",
+      "p2": "Vous pouvez également nous contacter via la communauté Discord d'OPTiVision pour une assistance et des annonces en temps réel."
+    }
+  },
+  "testingBanner": {
+    "title": "Mode test actif",
+    "description": "Cette application s'exécute dans un environnement simulé. Toutes les données sont des données fictives.",
+    "userLogin": "Connexion utilisateur :",
+    "email": "Email :",
+    "pass": "Mot de passe :",
+    "adminLogin": "Connexion administrateur :"
+  },
+  "dashboard": {
+    "title": "Optivus | {{tab}}",
+    "discordAria": "Rejoindre sur Discord",
+    "tabs": {
+      "overview": "Aperçu",
+      "team": "Équipe",
+      "withdraw": "Retirer",
+      "history": "Historique",
+      "kyc": "KYC",
+      "settings": "Paramètres"
+    },
+    "overview": {
+      "welcome": "Content de vous revoir, {{name}} !",
+      "subtitle": "Voici un aperçu de votre activité sur le protocole et de vos gains.",
+      "totalEarnings": "Gains totaux",
+      "totalTeamSize": "Taille totale de l'équipe",
+      "directReferrals": "Parrainages directs",
+      "downlineTitle": "Votre lignée descendante",
+      "level": "Niveau",
+      "users": "Utilisateurs",
+      "earningsFromTier": "Gains du niveau"
+    },
+    "referralCard": {
+      "title": "Partagez et gagnez",
+      "linkTab": "Lien de parrainage",
+      "codeTab": "Code de parrainage",
+      "shareText": "Rejoignez-moi sur le protocole Optivus et gagnez des commissions ! Utilisez mon lien pour commencer :",
+      "shareAria": "Ou partagez directement sur les réseaux sociaux :",
+      "socials": {
+        "x": "Partager sur X",
+        "facebook": "Partager sur Facebook",
+        "whatsapp": "Partager sur WhatsApp",
+        "telegram": "Partager sur Telegram",
+        "linkedin": "Partager sur LinkedIn"
+      }
+    },
+    "team": {
+      "title": "Votre équipe de parrainage",
+      "subtitle": "Visualisez votre lignée descendante et suivez leur contribution.",
+      "teamSize": "Taille totale de l'équipe",
+      "directReferrals": "Parrainages directs",
+      "structureTitle": "Structure de l'équipe",
+      "joined": "Rejoint le",
+      "earningsFrom": "Gains de",
+      "noReferrals": "Vous n'avez encore parrainé personne. Partagez votre code de parrainage pour commencer à construire votre équipe !"
+    },
+    "withdraw": {
+      "title": "Retirer des fonds",
+      "balanceTitle": "Solde retirable",
+      "form": {
+        "title": "Retirer via Stripe",
+        "connectedInfo": "Les paiements seront envoyés à votre compte Stripe connecté.",
+        "amountLabel": "Montant (£)",
+        "pinLabel": "PIN de retrait",
+        "pinPlaceholder": "Saisissez votre PIN",
+        "2faLabel": "Code 2FA",
+        "2faPlaceholder": "123456",
+        "button": "Retirer",
+        "noPinError": "Veuillez d'abord configurer un PIN de retrait dans les paramètres."
+      },
+      "stripe": {
+        "title": "Compte Stripe requis",
+        "subtitle": "Connectez votre compte Stripe pour activer les retraits.",
+        "button": "Connecter le compte Stripe"
+      },
+      "kyc": {
+        "title": "Retraits verrouillés",
+        "subtitle": "Veuillez compléter la vérification KYC pour activer les retraits sur votre compte Stripe.",
+        "button": "Aller à KYC"
+      }
+    },
+    "history": {
+      "title": "Historique des transactions",
+      "date": "Date",
+      "type": "Type",
+      "description": "Description",
+      "amount": "Montant",
+      "status": "Statut",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "pageOf": "Page {{page}} sur {{totalPages}}"
+    },
+    "kyc": {
+      "title": "Vérification KYC",
+      "pending": {
+        "title": "Vérification en attente",
+        "message": "Vos documents sont en cours d'examen. Cela prend généralement 1 à 2 jours ouvrables."
+      },
+      "verified": {
+        "title": "Vérification terminée",
+        "message": "Vous avez été entièrement vérifié et pouvez accéder à toutes les fonctionnalités de la plateforme."
+      },
+      "rejected": {
+        "title": "Soumission rejetée",
+        "reason": "Raison : {{reason}}",
+        "noReason": "Raison : aucune raison fournie.",
+        "instruction": "Veuillez corriger les problèmes et soumettre à nouveau vos informations ci-dessous."
+      },
+      "form": {
+        "personalInfo": "Informations personnelles",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "addressInfo": "Informations sur l'adresse",
+        "streetAddress": "Adresse",
+        "city": "Ville",
+        "postalCode": "Code postal",
+        "country": "Pays",
+        "docUpload": "Téléchargement de document",
+        "docInstruction": "Téléchargez une image claire de votre passeport ou de votre permis de conduire.",
+        "payoutMethod": "Configurer le mode de paiement",
+        "payoutConnected": "Compte Stripe connecté avec succès",
+        "payoutInstruction": "Connectez un compte Stripe pour recevoir les paiements.",
+        "payoutButton": "Se connecter avec Stripe",
+        "submitButton": "Soumettre pour vérification",
+        "resubmitButton": "Soumettre à nouveau pour vérification"
+      }
+    },
+    "settings": {
+      "title": "Paramètres",
+      "profile": {
+        "title": "Informations sur le profil",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Adresse e-mail",
+        "button": "Enregistrer les modifications",
+        "success": "Profil mis à jour avec succès !"
+      },
+      "password": {
+        "title": "Changer le mot de passe",
+        "current": "Mot de passe actuel",
+        "new": "Nouveau mot de passe",
+        "confirm": "Confirmer le nouveau mot de passe",
+        "button": "Changer le mot de passe"
+      },
+      "pin": {
+        "title": "Gérer le PIN de retrait",
+        "isSet": "Votre PIN est défini. Pour des raisons de sécurité, la réinitialisation du PIN est gérée via le support.",
+        "newPin": "Nouveau PIN à 4-6 chiffres",
+        "confirmPin": "Confirmer le PIN",
+        "buttonSet": "Définir le PIN",
+        "emailCode": "Code de vérification par e-mail",
+        "buttonConfirm": "Confirmer et définir le PIN",
+        "errorLength": "Le PIN doit comporter entre 4 et 6 chiffres.",
+        "errorMatch": "Les PIN ne correspondent pas."
+      },
+      "2fa": {
+        "title": "Authentification à deux facteurs (2FA)",
+        "description": "Améliorez la sécurité de votre compte en exigeant une deuxième étape de vérification lors de la connexion et des retraits.",
+        "enableModalTitle": "Activer la 2FA",
+        "disableModalTitle": "Désactiver la 2FA",
+        "enableStep1": "1. Scannez le code QR avec votre application d'authentification.",
+        "enableStep2": "Ou saisissez cette clé manuellement :",
+        "enableStep3": "2. Saisissez le code à 6 chiffres de votre application.",
+        "verificationCode": "Code de vérification",
+        "buttonVerifyEnable": "Vérifier et activer",
+        "disablePrompt": "Pour confirmer, veuillez saisir un code à 6 chiffres de votre application d'authentification.",
+        "authCode": "Code d'authentification",
+        "buttonVerifyDisable": "Confirmer et désactiver"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin : {{tab}}",
+    "loginPage": {
+      "title": "Portail administrateur",
+      "subtitle": "Veuillez vous connecter pour continuer.",
+      "emailPlaceholder": "E-mail de l'administrateur",
+      "passwordPlaceholder": "Mot de passe de l'administrateur",
+      "button": "Connexion",
+      "return": "Retour à la connexion utilisateur",
+      "footer": "© Protocole Optivus. Accès administrateur."
+    },
+    "sidebar": {
+      "overview": "Aperçu",
+      "userManagement": "Gestion des utilisateurs",
+      "kycManagement": "Gestion KYC",
+      "withdrawals": "Retraits",
+      "transactions": "Transactions",
+      "role": "Administrateur"
+    },
+    "overview": {
+      "title": "Tableau de bord administrateur",
+      "masterDashboardTitle": "Tableau de bord du compte principal",
+      "totalRefEarnings": "Gains totaux de parrainage",
+      "balance": "Solde",
+      "withdrawalsCard": {
+        "title": "Gestion des retraits",
+        "subtitle": "Gérez et retirez le solde du compte principal.",
+        "link": "Aller aux retraits →"
+      },
+      "platformControlsTitle": "Contrôles et aperçu de la plateforme",
+      "totalUserEarnings": "Gains totaux de parrainage des utilisateurs",
+      "totalUserEarningsDesc": "Le montant cumulé des commissions et des bonus distribués à tous les utilisateurs.",
+      "protocolBalance": "Solde restant du protocole",
+      "protocolBalanceDesc": "Il s'agit du solde restant des frais disponibles pour le retrait par les administrateurs du protocole.",
+      "totalUsers": "Nombre total d'utilisateurs",
+      "pendingWithdrawals": "Retraits en attente",
+      "masterAccountCard": {
+        "title": "Compte principal",
+        "desc": "Il s'agit du compte prédéfini à partir duquel toutes les chaînes de parrainage découlent.",
+        "username": "Nom d'utilisateur :",
+        "refCode": "Code de réf. :"
+      },
+      "globalWithdrawalsCard": {
+        "title": "Contrôles de retrait globaux",
+        "allUserWithdrawals": "Tous les retraits d'utilisateurs",
+        "desc": "Ce commutateur suspend ou réactive immédiatement les retraits pour tous les utilisateurs de la plateforme."
+      }
+    },
+    "userManagement": {
+      "title": "Gestion des utilisateurs",
+      "createButton": "Créer un compte de niveau 2",
+      "searchPlaceholder": "Rechercher par nom, e-mail ou nom d'utilisateur...",
+      "table": {
+        "name": "Nom",
+        "email": "E-mail",
+        "balance": "Solde",
+        "status": "Statut",
+        "actions": "Actions",
+        "manage": "Gérer"
+      }
+    },
+    "userDetailModal": {
+      "title": "Gérer l'utilisateur : {{name}}",
+      "info": "Informations sur le compte",
+      "email": "E-mail :",
+      "username": "Nom d'utilisateur :",
+      "kycStatus": "Statut KYC :",
+      "adjustBalance": "Ajuster le solde",
+      "accountStatus": "Statut du compte",
+      "withdrawalStatus": "Statut du retrait",
+      "save": "Enregistrer les modifications",
+      "cancel": "Annuler",
+      "success": "Utilisateur mis à jour avec succès !"
+    },
+    "createUserModal": {
+      "title": "Créer un nouveau compte de niveau 2",
+      "desc": "Créez manuellement un nouveau compte utilisateur. Ce compte ne nécessitera pas de frais de paiement. Vous pouvez éventuellement attribuer un parrain.",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse e-mail",
+      "username": "Nom d'utilisateur",
+      "referrer": "Nom d'utilisateur du parrain (facultatif)",
+      "password": "Mot de passe",
+      "passwordNote": "Un mot de passe par défaut est fourni. L'utilisateur peut le modifier après s'être connecté.",
+      "button": "Créer un utilisateur"
+    },
+    "transactions": {
+      "title": "Historique global des transactions"
+    },
+    "withdrawals": {
+      "title": "Gestion des retraits",
+      "method": "Méthode",
+      "noRequests": "Il n'y a aucune demande de retrait en attente.",
+      "approve": "Approuver",
+      "deny": "Refuser"
+    },
+    "kyc": {
+      "title": "Gestion KYC",
+      "submitted": "Soumis le :",
+      "addressDetails": "Détails de l'adresse",
+      "viewDocument": "Afficher le document",
+      "noRequests": "Il n'y a aucune demande KYC en attente.",
+      "rejectionModal": {
+        "title": "Rejeter la soumission KYC",
+        "prompt": "Veuillez fournir une raison pour rejeter la soumission de {{name}}.",
+        "reasonLabel": "Raison du rejet (facultatif)",
+        "reasonPlaceholder": "par exemple, le document était flou.",
+        "confirm": "Confirmer le rejet"
+      }
+    }
+  }
+}
