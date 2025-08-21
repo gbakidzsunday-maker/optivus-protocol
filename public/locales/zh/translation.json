@@ -1,0 +1,687 @@
+
+{
+  "header": {
+    "home": "首页",
+    "whitepaper": "白皮书",
+    "contact": "联系我们",
+    "login": "登录",
+    "signup": "注册",
+    "dashboard": "仪表板",
+    "logout": "登出",
+    "welcome": "欢迎, {{name}}",
+    "launch_app": "启动应用",
+    "faq": "常问问题"
+  },
+  "home": {
+    "hero": {
+      "pre_title": "用于可扩展、无需许可的金融的新一代模块化DeFi<br/>基础设施。",
+      "title": "拥有你的价值。<br/>发展你的<br/>网络。",
+      "tagline": "$OPTIV 是我们由 OPTIVision 驱动的价值存储",
+      "cta": "开始 – 一次性费用 £50"
+    },
+    "ideas_section": {
+      "title": "将想法<br/>变为现实",
+      "subtitle": "Optivus 协议：更智能的赚钱方式。通过 $OPTIV 进行质押、<br/>推荐和增长——下一代<br/>被动收入和长期价值资产。"
+    },
+    "vision_section": {
+      "title": "OPTIVision",
+      "feature1_title": "购买 $OPTIV。直接、快速、安全。",
+      "feature1_desc": "Optivus 协议让您轻松投资未来——没有第三方，没有延迟。在网站上即时购买 $OPTIV，完全透明，完全控制。",
+      "feature2_title": "使用 Optivus 推荐。无限赚取。",
+      "feature2_desc": "Optivus 协议通过智能的、由区块链驱动的推荐，将您的网络变成增长引擎。分享。赚取。扩展——轻松透明，奖励值得信赖。",
+      "feature3_title": "质押 $OPTIV。有目的地成长。",
+      "feature3_desc": "Optivus 协议通过安全、可扩展的 Web3 基础设施，为您的金融未来赋能。在支持下一代区块链创新的同时赚取奖励——快速、可靠、经久耐用。"
+    }
+  },
+  "footer": {
+    "about": "关于 / 白皮书",
+    "faq": "常问问题",
+    "contact": "联系我们",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "follow_us": "关注我们",
+    "copyright": "© {{year}} Optivus Protocol. 版权所有。"
+  },
+  "common": {
+    "backToHome": "返回首页",
+    "copied": "已复制！",
+    "copy": "复制",
+    "or": "或",
+    "status": {
+      "completed": "已完成",
+      "pending": "待处理",
+      "failed": "失败",
+      "active": "活跃",
+      "frozen": "已冻结",
+      "paused": "已暂停"
+    }
+  },
+  "forms": {
+    "errors": {
+      "passwordsDoNotMatch": "密码不匹配。",
+      "generic": "请在提交前修正错误。",
+      "usernameTaken": "用户名已被占用。",
+      "referralCodeRequired": "推荐码是必需的。",
+      "fieldRequired": "此字段是必需的。"
+    }
+  },
+  "loginPage": {
+    "title": "欢迎回来！",
+    "subtitle": "使用个人信息登录以进入用户仪表板。",
+    "forgotPassword": "忘记密码？",
+    "noAccount": "还没有账户？",
+    "signUp": "注册",
+    "areYouAdmin": "您是管理员吗？",
+    "adminLogin": "管理员登录",
+    "form": {
+      "email": "电子邮件",
+      "password": "密码"
+    },
+    "2fa": {
+      "title": "输入 2FA 代码",
+      "subtitle": "请输入您的验证器应用中的代码以继续。",
+      "label": "2FA 代码"
+    },
+    "buttons": {
+      "login": "登录",
+      "verify": "验证"
+    }
+  },
+  "signupPage": {
+    "authLayout": {
+      "title": "加入 Optivus 协议",
+      "subtitle": "创建您的账户以开始赚取佣金。"
+    },
+    "details": {
+      "title": "创建账户",
+      "subtitle": "使用您的推荐码并添加您的个人信息以创建您自己的 Optivus 协议账户。",
+      "usernameChecking": "检查中...",
+      "usernameAvailable": "用户名可用！",
+      "usernameTaken": "用户名已被占用。",
+      "referralCodePlaceholder": "推荐码",
+      "button": "创建",
+      "hasAccount": "已有账户？"
+    },
+    "payment": {
+      "button": "获取访问权限"
+    },
+    "paymentModal": {
+      "title": "完成您的注册",
+      "subtitle": "您将被收取一次性费用 £50。",
+      "cardholderName": "持卡人姓名",
+      "cardNumber": "卡号",
+      "cardNumberPlaceholder": "0000 0000 0000 0000",
+      "expiry": "有效期 (MM/YY)",
+      "expiryPlaceholder": "MM/YY",
+      "cvc": "CVC",
+      "cvcPlaceholder": "123",
+      "button": "安全支付 £50"
+    }
+  },
+  "forgotPasswordPage": {
+    "title": "忘记密码？",
+    "subtitle": "没问题。输入您的电子邮件以接收重置链接。",
+    "button": "发送重置链接",
+    "rememberPassword": "记得您的密码？",
+    "success": {
+      "title": "检查您的电子邮件",
+      "message": "如果存在使用该电子邮件的账户，密码重置链接已发送。",
+      "button": "返回登录"
+    }
+  },
+  "resetPasswordPage": {
+    "title": "设置新密码",
+    "subtitle": "在下方输入并确认您的新密码。",
+    "newPassword": "新密码",
+    "confirmNewPassword": "确认新密码",
+    "button": "重置密码",
+    "errorToken": "未找到重置令牌。请请求新的重置链接。",
+    "success": {
+      "title": "密码已重置！",
+      "button": "返回登录"
+    }
+  },
+  "contactPage": {
+    "title": "联系我们",
+    "subtitle": "有问题或需要帮助吗？填写下面的表格，我们的团队将很快与您联系。",
+    "form": {
+      "name": "您的姓名",
+      "email": "您的电子邮件",
+      "subject": "主题",
+      "message": "消息",
+      "button": "发送消息"
+    },
+    "success": {
+      "title": "消息已发送！",
+      "message": "您的消息已收到。我们将在24小时内回复您。"
+    }
+  },
+  "faqPage": {
+    "title": "常见问题",
+    "faqs": [
+      {
+        "question": "什么是 Optivus 协议？",
+        "answer": "Optivus 协议是一个去中心化的多层次联盟营销系统。它允许用户通过独特的推荐链接将他人推荐到平台来赚取佣金。"
+      },
+      {
+        "question": "我如何加入？",
+        "answer": "您可以通过注册并支付一次性 £50 的入场费来加入。这将激活您的账户，并为您提供一个独特的推荐链接进行分享，然后您可以访问专属的 Discord 以获得奖励。"
+      },
+      {
+        "question": "£50 的费用可以退还吗？",
+        "answer": "不可以，根据我们的服务条款，入场费不予退还。它会立即用于资助佣金支付和支付协议运营成本。"
+      },
+      {
+        "question": "注册费用途何在？",
+        "answer": "服务器的运营成本，以及大部分将通过 OPTIV 回购返还给社区，并在社区竞赛中公平分配。"
+      },
+      {
+        "question": "什么是 KYC？",
+        "answer": "KYC（了解您的客户）是为遵守金融法规而对法币（银行）提款要求的验证过程。它涉及提交身份证明文件。加密货币提款不需要 KYC。"
+      },
+      {
+        "question": "我的数据安全吗？",
+        "answer": "是的，我们非常重视安全。我们使用行业标准措施来保护您的数据。为增强安全性，我们强烈建议您在账户设置中启用双因素认证（2FA）。"
+      },
+      {
+        "question": "我如何加入 Discord？",
+        "answer": "Discord 仅限在我们网站 OPTiVision 上注册的用户，届时将提供直接链接，以确保贡献者是赠品的唯一受益者。"
+      },
+      {
+        "question": "我必须邀请人才能参加比赛吗？",
+        "answer": "不。任何支付一次性费用的人都可以参加比赛，但您带来的人越多，您获得的参赛机会就越多，从而增加您赢得 OPTIV 赠品的机会。"
+      }
+    ]
+  },
+  "privacyPage": {
+    "title": "隐私政策",
+    "sections": [
+      {
+        "title": "1. 我们收集的信息",
+        "content": [
+          "我们收集您直接提供给我们的信息，例如当您创建账户、完成您的 KYC 资料或联系我们时。这可能包括您的姓名、电子邮件地址和政府颁发的身份证明。",
+          "当您使用我们的服务时，我们也会自动收集信息，例如您的 IP 地址、设备信息和我们平台上的交易历史。"
+        ]
+      },
+      {
+        "title": "2. 我们如何使用信息",
+        "content": [
+          "我们使用收集到的信息来：",
+          "提供、维护和改进我们的服务；",
+          "处理交易并向您发送相关信息，包括确认和收据；",
+          "验证您的身份并防止欺诈（KYC）；",
+          "就产品、服务和活动与您沟通；",
+          "监控和分析与我们服务相关的趋势、使用情况和活动。"
+        ]
+      },
+      {
+        "title": "3. 数据共享",
+        "content": [
+          "我们不会出售您的个人信息。我们可能会与需要访问此类信息以代表我们开展工作的第三方供应商和服务提供商共享您的信息（例如，支付处理器、KYC 验证服务）。如果我们认为根据任何适用法律或法律程序的要求或符合其规定，我们也可能会为响应信息请求而共享信息。"
+        ]
+      },
+      {
+        "title": "4. 安全",
+        "content": [
+          "我们采取合理措施帮助保护您的信息免遭丢失、盗窃、滥用以及未经授权的访问、披露、更改和销毁。"
+        ]
+
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "Optivus 协议白皮书",
+    "version": "版本 1.0 | 2025年7月",
+    "abstract": {
+      "title": "摘要",
+      "p1": "Optivus 协议通过可持续的代币经济学、固定供应策略和社区主导的增长相结合，正在推进 Web3 的下一阶段。OPTIV 代币专为稳定性和长期实用性而设计，优先考虑现实世界价值，而非投机炒作。我们的使命是通过奖励有意义的参与并从 Web3 方程式中移除掠夺性机制，创建一个更值得信赖、以人为本的数字经济。"
+    },
+    "introduction": {
+      "title": "1. 简介",
+      "p1": "Web3 生态系统发展迅速，但往往以牺牲长期可持续性、用户信任和有意义的实用性为代价。Optivus 协议引入了一个新标准：一种固定供应、具有通缩意识的价值存储代币（OPTIV），它激励持有、加强网络参与并与实际经济原则保持一致。"
+    },
+    "visionMission": {
+      "title": "2. 愿景与使命",
+      "visionTitle": "愿景：",
+      "visionText": "将 OPTIV 确立为一种现代数字价值存储——稀缺、安全、可扩展。",
+      "missionTitle": "使命：",
+      "missionText": "通过公平的代幣經濟學、透明的獎勵和長期的協同，賦予用戶權力，創建一個惠及貢獻者而不僅僅是早期採用者或投機者的去中心化生態系統。"
+    },
+    "tokenOverview": {
+      "title": "3. 代币概述",
+      "name": "代币名称",
+      "symbol": "符号",
+      "supply": "总供应量",
+      "price": "起始价格",
+      "liquidity": "启动时提供的流动性",
+      "pairings": "启动交易对",
+      "minting": "铸造政策",
+      "burn": "销毁机制",
+      "staking": "质押"
+    },
+    "tokenomics": {
+      "title": "4. 代币经济学设计",
+      "sovTitle": "4.1 价值存储架构",
+      "sovText": "与波动的、基于炒作的代币不同，OPTIV 的设计初衷是持有：",
+      "sovPoints": [
+        "固定最大供应量：100亿 OPTIV – 无通货膨胀。",
+        "通货紧缩潜力：可通过交易、费用或治理触发销毁。",
+        "支持质押：可选的收益机制，通过现有池而非通货膨胀。"
+      ],
+      "sovConclusion": "该模型支持长期信任并最大限度地减少价格波动。",
+      "liquidityTitle": "4.2 流动性策略",
+      "liquidityText": "初始流动性池：",
+      "pool1Title": "OPTIV/USDC:",
+      "pool1Text1": "700万 OPTIV + 7,000 美元 USDC",
+      "pool1Text2": "提供价格稳定性，非常适合长期持有者",
+      "pool2Title": "OPTIV/SOL:",
+      "pool2Text1": "300万 OPTIV + 3,000 美元 SOL",
+      "pool2Text2": "降低市场低迷期间的 SOL 敞口风险",
+      "liquidityPoints": [
+        "保护价格底线",
+        "鼓励实用性采用",
+        "减少代币抛售的影响"
+      ]
+    },
+    "growthEngine": {
+      "title": "5. 基于推荐的增长引擎",
+      "p1": "传统的加密项目只奖励购买者。Optivus 奖励贡献者。",
+      "listTitle": "推荐模型亮点：",
+      "listItems": [
+        "多层次奖励结构",
+        "激励真实的网络扩展",
+        "加强社区所有权"
+      ],
+      "p2": "该系统使 Web3 的入门过程具有包容性、透明度和人性化。"
+    },
+    "advancedTokenomics": {
+      "title": "6. 有目的的高级代币经济学",
+      "listItems": [
+        "公平分配：没有隐藏的铸造或不公平的内部人分配",
+        "透明度：公众可以访问代币流、储备和奖励",
+        "财政部控制的储备金：用于开发、营销和稳定的储备资金"
+      ]
+    },
+    "optionalFeatures": {
+      "title": "7. 可持续扩展的可选功能",
+      "burnTitle": "销毁功能（未来激活）",
+      "burnText": "可以从以下方面进行手动或自动销毁：",
+      "burnList": [
+        "交易费用",
+        "财政部使用",
+        "治理提案"
+      ],
+      "burnGoal": "目标：鼓励长期稀缺性和价值增长",
+      "stakingTitle": "质押系统（审查中）",
+      "stakingList": [
+        "基于锁仓的收益潜力",
+        "没有新的代币发行——奖励来自现有的代币池",
+        "正在考虑时间加权乘数"
+      ]
+    },
+    "positioning": {
+      "title": "8. 战略定位",
+      "identity": "核心身份：“现代价值存储：稀缺、安全、可扩展。”",
+      "pillarsTitle": "信息支柱：",
+      "pillars": [
+        "稀缺性 + 信任 = 价值",
+        "持有即赚的心态",
+        "稳定 > 投机"
+      ],
+      "taglinesTitle": "主要口号：",
+      "taglines": [
+        "“为持有而建。为增长而设计。”",
+        "“Optivus：您的数字形式的未来。”",
+        "“您可以拥有的财富，而非通货膨胀。”"
+      ]
+    },
+    "marketFit": {
+      "title": "9. 市场契合度与目标受众",
+      "audienceTitle": "受众—价值主张",
+      "audiences": [
+        "长期持有者—资产保护、固定供应、质押选项",
+        "加密货币新手—简洁的设计、清晰的用例、信任优先的方法",
+        "DeFi 用户—高级机制、金库/质押潜力",
+        "全球受众—对冲通货膨胀，在不稳定市场中的价值存储"
+      ]
+    },
+    "governance": {
+      "title": "10. 治理与社区",
+      "p1": "Optivus 协议建立在社区优先的原则之上。未来的更新包括：",
+      "listItems": [
+        "基于 DAO 的决策",
+        "治理代币集成",
+        "提案和投票系统"
+      ],
+      "p2": "所有这些都旨在将真正的权力交还给用户，而非中心化团队。"
+    },
+    "summary": {
+      "title": "11. 摘要快照",
+      "inflation_label": "通货膨胀",
+      "burn_label": "销毁能力",
+      "staking_label": "质押",
+      "liquidity_label": "流动性策略",
+      "narrative_label": "主要叙事",
+      "ethos_label": "启动精神",
+      "supply": "10,000,000,000 OPTIV",
+      "inflation": "无（固定上限）",
+      "burn": "可选，非默认",
+      "staking": "可选，非稀释性",
+      "price": "0.0001美元",
+      "liquidity": "70% USDC / 30% SOL",
+      "narrative": "“具有现实世界影响力的数字黄金”",
+      "ethos": "社区优先，反炒作，信任驱动"
+    },
+    "closing": {
+      "title": "12. 结束语",
+      "p1": "Optivus 协议不仅仅是另一个代币。它是一场旨在重新夺回加密货币应有面貌的运动——透明、公平、赋权。凭借强大的代币经济学、可持续的设计和与社区一致的激励措施，OPTIV 正在为更稳定、更有回报的数字经济奠定基础。"
+    }
+  },
+  "termsPage": {
+    "title": "Optivus 协议计划服务条款",
+    "lastUpdated": "最后更新：2025年7月25日",
+    "intro": "欢迎来到 Optivus 协议推荐计划（“计划”）。本计划旨在奖励我们的社区分享对 Optivus 及其生态系统的访问权限。参与即表示您同意遵守这些服务条款（“条款”）。请仔细阅读。",
+    "sections": [
+      { "title": "概述", "content": ["Optivus 协议推荐计划是 OPTiVision 平台用户可用的一个可选功能。通过推荐新用户购买 OPTiVision 服务，参与者可能会获得有限的促销奖励。参与完全是自愿的，并且不是访问平台的必要条件。"] },
+      { "title": "OPTiVision 付费访问权益", "content": ["所有 OPTiVision 的付费用户都会收到：", "完全访问我们专属的 Discord 社区", "访问质押仪表板和性能分析", "有资格参加社区空投、比赛和更新", "<i>注意：推荐奖励是可选的促销奖金，不属于核心 OPTiVision 产品的一部分。</i>"] },
+      { 
+        "title": "推荐奖励结构", 
+        "content": [
+          "奖励级别", "<strong>1 级（直接奖金）：</strong>为每位注册并付费的推荐用户提供的奖励。", "<strong>2-6 级（间接奖金）：</strong>为您的受邀者进行的推荐提供的奖励，每级减少 15%（例如，2 级获得 1 级价值的 85%，3 级获得 70%，等等）。", 
+          "可能的奖励", "$OPTIV 代币", "提高的质押奖励", "空投优先权", "促销性现金等价物（通过 Stripe、PayPal 或其他支持的方法）", 
+          "<strong>重要提示：</strong>所有奖励都是酌情决定的，供应有限，并且不保证。推荐奖金可由 Optivus 自行决定随时修改、暂停或取消。"
+        ] 
+      },
+      { "title": "计划规则和参与者义务", "content": ["本计划是一项促销活动，而非收入机会或投资计划。参与者必须同意以下内容：", "创建多个账户、从事欺诈或滥用推荐系统将导致立即取消资格。", "推荐链接不得通过垃圾邮件、欺骗性促销或违反 Optivus 使用条款的方式分发。", "参与者不得将本计划呈现为有保证的收入来源或投资机会。", "推荐奖金不依赖于超过第六级的下游推荐量。", "所有促销活动必须遵守地方、州和国际法律。"] },
+      { "title": "法律与合规声明", "content": ["本计划不构成金融服务、投资机会或创收计划。", "Optivus 协议对任何推荐奖金的货币价值或可用性不作任何保证。", "参与者全权负责在适用情况下将任何奖励报告为应税收入。", "本计划在法律禁止的地区无效。参与者必须遵守所有相关的地方法规。", "推荐奖金由 Optivus 的营销预算资助，而非来自用户订阅付款。", "$OPTIV 代币和促销性支付不代表证券、股权或投资工具。", "如果用户违反 Optivus 平台使用条款，则参与无效。"] },
+      { "title": "促销赠品和启动奖金", "content": ["作为营销活动的一部分，Optivus 可能会提供：", "向活跃的付费用户可选赠送 $OPTIV 代币", "为最多六级的推荐提供额外的参赛机会或奖金", "名义上的间接推荐奖励（2-6 级），每级减少 15%，以确保公平和可持续性", "<i>免责声明：赠品和启动奖金是可选的且有时间限制。它们不具有保证或内在的货币价值，并可能发生变化。</i>"] },
+      { "title": "计划管理与权力", "content": ["Optivus 保留以下权利：", "随时修改、暂停或终止本计划，恕不另行通知", "就争议、欺诈调查和资格评估做出最终决定", "自行决定确定奖金资格、限制奖励并执行计划规则", "为保持推荐奖金的资格，参与者必须：", "维持有效的付费 OPTiVision 订阅", "遵守所有 Optivus 平台政策，包括使用条款", "确保所有促销活动保持合法并符合平台指南"] },
+      { "title": "条款确认", "content": ["通过参与推荐计划，您承认并同意：", "您购买的是对 OPTiVision 工具和服务的访问权限，而非投资产品", "推荐奖金和代币赠品是可选的促销激励措施，不作保证", "参与推荐计划是次要于 OPTiVision 提供的核心实用程序和访问权限", "您理解并接受所有奖励都是酌情决定的，性质有限，并可能被修改或撤销"] }
+    ],
+    "contact": {
+      "title": "问题与支持",
+      "p1": "如果您对推荐计划或这些条款有任何疑问，请通过以下方式联系我们：",
+      "p2": "您也可以通过 OPTiVision Discord 社区联系以获得实时支持和公告。"
+    }
+  },
+  "testingBanner": {
+    "title": "测试模式已激活",
+    "description": "此应用程序正在模拟环境中运行。所有数据均为模拟数据。",
+    "userLogin": "用户登录：",
+    "email": "电子邮件：",
+    "pass": "密码：",
+    "adminLogin": "管理员登录："
+  },
+  "dashboard": {
+    "title": "Optivus | {{tab}}",
+    "discordAria": "在 Discord 上加入",
+    "tabs": {
+        "overview": "概览",
+        "team": "团队",
+        "withdraw": "提款",
+        "history": "历史记录",
+        "kyc": "KYC",
+        "settings": "设置"
+    },
+    "overview": {
+        "welcome": "欢迎回来, {{name}}!",
+        "subtitle": "这是您的协议活动和收入快照。",
+        "totalEarnings": "总收入",
+        "totalTeamSize": "团队总人数",
+        "directReferrals": "直接推荐",
+        "downlineTitle": "您的下线",
+        "level": "级别",
+        "users": "用户",
+        "earningsFromTier": "来自该层的收入"
+    },
+    "referralCard": {
+        "title": "分享与赚取",
+        "linkTab": "推荐链接",
+        "codeTab": "推荐码",
+        "shareText": "加入我的 Optivus 协议并赚取佣金！使用我的链接开始：",
+        "shareAria": "或直接在社交媒体上分享：",
+        "socials": {
+          "x": "在 X 上分享",
+          "facebook": "在 Facebook 上分享",
+          "whatsapp": "在 WhatsApp 上分享",
+          "telegram": "在 Telegram 上分享",
+          "linkedin": "在 LinkedIn 上分享"
+        }
+    },
+    "team": {
+        "title": "您的推荐团队",
+        "subtitle": "可视化您的下线并跟踪他们的贡献。",
+        "teamSize": "团队总人数",
+        "directReferrals": "直接推荐",
+        "structureTitle": "团队结构",
+        "joined": "加入日期",
+        "earningsFrom": "收入来自",
+        "noReferrals": "您还没有推荐任何人。分享您的推荐码以开始建立您的团队！"
+    },
+    "withdraw": {
+        "title": "提取资金",
+        "balanceTitle": "可提取余额",
+        "form": {
+            "title": "通过 Stripe 提款",
+            "connectedInfo": "支付款项将发送到您连接的 Stripe 账户。",
+            "amountLabel": "金额 (£)",
+            "pinLabel": "提款 PIN",
+            "pinPlaceholder": "输入您的 PIN",
+            "2faLabel": "2FA 代码",
+            "2faPlaceholder": "123456",
+            "button": "提款",
+            "noPinError": "请先在“设置”中设置提款 PIN。"
+        },
+        "stripe": {
+            "title": "需要 Stripe 账户",
+            "subtitle": "连接您的 Stripe 账户以启用提款。",
+            "button": "连接 Stripe 账户"
+        },
+        "kyc": {
+            "title": "提款已锁定",
+            "subtitle": "请完成 KYC 验证以启用向您的 Stripe 账户提款。",
+            "button": "前往 KYC"
+        }
+    },
+    "history": {
+        "title": "交易历史",
+        "date": "日期",
+        "type": "类型",
+        "description": "描述",
+        "amount": "金额",
+        "status": "状态",
+        "previous": "上一页",
+        "next": "下一页",
+        "pageOf": "第 {{page}} 页，共 {{totalPages}} 页"
+    },
+    "kyc": {
+        "title": "KYC 验证",
+        "pending": {
+            "title": "验证待处理",
+            "message": "您的文件正在审核中。这通常需要1-2个工作日。"
+        },
+        "verified": {
+            "title": "验证完成",
+            "message": "您已完全验证，可以访问所有平台功能。"
+        },
+        "rejected": {
+            "title": "提交被拒绝",
+            "reason": "原因: {{reason}}",
+            "noReason": "原因: 未提供原因。",
+            "instruction": "请更正问题并在下方重新提交您的信息。"
+        },
+        "form": {
+            "personalInfo": "个人信息",
+            "firstName": "名字",
+            "lastName": "姓氏",
+            "addressInfo": "地址信息",
+            "streetAddress": "街道地址",
+            "city": "城市",
+            "postalCode": "邮政编码",
+            "country": "国家",
+            "docUpload": "文件上传",
+            "docInstruction": "上传您的护照或驾驶执照的清晰图像。",
+            "payoutMethod": "设置支付方式",
+            "payoutConnected": "Stripe 账户已成功连接",
+            "payoutInstruction": "连接一个 Stripe 账户以接收支付。",
+            "payoutButton": "与 Stripe 连接",
+            "submitButton": "提交以进行验证",
+            "resubmitButton": "重新提交以进行验证"
+        }
+    },
+    "settings": {
+        "title": "设置",
+        "profile": {
+            "title": "个人资料信息",
+            "firstName": "名字",
+            "lastName": "姓氏",
+            "email": "电子邮件地址",
+            "button": "保存更改",
+            "success": "个人资料更新成功！"
+        },
+        "password": {
+            "title": "更改密码",
+            "current": "当前密码",
+            "new": "新密码",
+            "confirm": "确认新密码",
+            "button": "更改密码"
+        },
+        "pin": {
+            "title": "管理提款 PIN",
+            "isSet": "您的 PIN 已设置。为安全起见，PIN 重置通过支持处理。",
+            "newPin": "新的 4-6 位 PIN",
+            "confirmPin": "确认 PIN",
+            "buttonSet": "设置 PIN",
+            "emailCode": "电子邮件验证码",
+            "buttonConfirm": "确认并设置 PIN",
+            "errorLength": "PIN 必须介于 4 到 6 位之间。",
+            "errorMatch": "PIN 不匹配。"
+        },
+        "2fa": {
+            "title": "双因素认证 (2FA)",
+            "description": "通过在登录和提款时要求第二次验证步骤来增强您的账户安全。",
+            "enableModalTitle": "启用 2FA",
+            "disableModalTitle": "禁用 2FA",
+            "enableStep1": "1. 使用您的验证器应用扫描二维码。",
+            "enableStep2": "或手动输入此密钥：",
+            "enableStep3": "2. 输入您应用中的 6 位代码。",
+            "verificationCode": "验证码",
+            "buttonVerifyEnable": "验证并启用",
+            "disablePrompt": "为确认，请输入您验证器应用中的 6 位代码。",
+            "authCode": "认证码",
+            "buttonVerifyDisable": "确认并禁用"
+        }
+    }
+  },
+  "admin": {
+    "title": "管理员: {{tab}}",
+    "loginPage": {
+        "title": "管理员门户",
+        "subtitle": "请登录以继续。",
+        "emailPlaceholder": "管理员电子邮件",
+        "passwordPlaceholder": "管理员密码",
+        "button": "登录",
+        "return": "返回用户登录",
+        "footer": "© Optivus Protocol. 管理员访问。"
+    },
+    "sidebar": {
+        "overview": "概览",
+        "userManagement": "用户管理",
+        "kycManagement": "KYC 管理",
+        "withdrawals": "提款",
+        "transactions": "交易",
+        "role": "管理员"
+    },
+    "overview": {
+        "title": "管理员仪表板",
+        "masterDashboardTitle": "主账户仪表板",
+        "totalRefEarnings": "总推荐收入",
+        "balance": "余额",
+        "withdrawalsCard": {
+            "title": "提款管理",
+            "subtitle": "管理和提取主账户的余额。",
+            "link": "前往提款 →"
+        },
+        "platformControlsTitle": "平台控制与概览",
+        "totalUserEarnings": "用户总推荐收入",
+        "totalUserEarningsDesc": "分配给所有用户的佣金和奖金的累计金额。",
+        "protocolBalance": "剩余协议余额",
+        "protocolBalanceDesc": "这是协议管理员可提取的费用的剩余余额。",
+        "totalUsers": "总用户",
+        "pendingWithdrawals": "待处理提款",
+        "masterAccountCard": {
+            "title": "主账户",
+            "desc": "这是所有推荐链的起源预制账户。",
+            "username": "用户名:",
+            "refCode": "推荐码:"
+        },
+        "globalWithdrawalsCard": {
+            "title": "全局提款控制",
+            "allUserWithdrawals": "所有用户提款",
+            "desc": "此开关可立即暂停或恢复平台上所有用户的提款。"
+        }
+    },
+    "userManagement": {
+        "title": "用户管理",
+        "createButton": "创建二级账户",
+        "searchPlaceholder": "按姓名、电子邮件或用户名搜索...",
+        "table": {
+            "name": "姓名",
+            "email": "电子邮件",
+            "balance": "余额",
+            "status": "状态",
+            "actions": "操作",
+            "manage": "管理"
+        }
+    },
+    "userDetailModal": {
+        "title": "管理用户: {{name}}",
+        "info": "账户信息",
+        "email": "电子邮件:",
+        "username": "用户名:",
+        "kycStatus": "KYC 状态:",
+        "adjustBalance": "调整余额",
+        "accountStatus": "账户状态",
+        "withdrawalStatus": "提款状态",
+        "save": "保存更改",
+        "cancel": "取消",
+        "success": "用户更新成功！"
+    },
+    "createUserModal": {
+        "title": "创建新的二级账户",
+        "desc": "手动创建一个新用户账户。此账户不需要支付费用。您可以选择性地分配一个推荐人。",
+        "firstName": "名字",
+        "lastName": "姓氏",
+        "email": "电子邮件地址",
+        "username": "用户名",
+        "referrer": "推荐人用户名（可选）",
+        "password": "密码",
+        "passwordNote": "提供了默认密码。用户登录后可以更改。",
+        "button": "创建用户"
+    },
+    "transactions": {
+        "title": "全局交易历史"
+    },
+    "withdrawals": {
+        "title": "提款管理",
+        "method": "方法",
+        "noRequests": "没有待处理的提款请求。",
+        "approve": "批准",
+        "deny": "拒绝"
+    },
+    "kyc": {
+        "title": "KYC 管理",
+        "submitted": "已提交:",
+        "addressDetails": "地址详情",
+        "viewDocument": "查看文件",
+        "noRequests": "没有待处理的 KYC 请求。",
+        "rejectionModal": {
+            "title": "拒绝 KYC 提交",
+            "prompt": "请提供拒绝 {{name}} 提交的原因。",
+            "reasonLabel": "拒绝原因（可选）",
+            "reasonPlaceholder": "例如，文件模糊。",
+            "confirm": "确认拒绝"
+        }
+    }
+  }
+}
