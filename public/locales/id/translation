@@ -1,0 +1,703 @@
+
+{
+  "header": {
+    "home": "Beranda",
+    "whitepaper": "Whitepaper",
+    "contact": "Kontak",
+    "login": "Masuk",
+    "signup": "Daftar",
+    "dashboard": "Dasbor",
+    "logout": "Keluar",
+    "welcome": "Selamat datang, {{name}}",
+    "launch_app": "Luncurkan Aplikasi",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "pre_title": "Infrastruktur DeFi Modular generasi berikutnya<br/>untuk keuangan yang dapat diskalakan dan tanpa izin.",
+      "title": "Miliki nilaimu.<br/>Kembangkan<br/>jaringanmu.",
+      "tagline": "$OPTIV adalah Penyimpan Nilai kami yang Didukung oleh OPTIVision",
+      "cta": "MULAI – BIAYA SEKALI SEBESAR £50"
+    },
+    "ideas_section": {
+      "title": "Mewujudkan Ide<br/>Menjadi Nyata",
+      "subtitle": "Protokol Optivus: Cara Cerdas untuk Menghasilkan. Stake,<br/> referensikan, dan kembangkan dengan $OPTIV — aset generasi berikutnya<br/> untuk pendapatan pasif dan nilai jangka panjang."
+    },
+    "vision_section": {
+      "title": "OPTIVision",
+      "feature1_title": "Beli $OPTIV. Langsung, Cepat, Aman.",
+      "feature1_desc": "Protokol Optivus memudahkan investasi di masa depan Anda – tanpa pihak ketiga, tanpa penundaan. Beli $OPTIV secara instan di situs dengan transparansi penuh dan kontrol total.",
+      "feature2_title": "Rujuk dengan Optivus. Dapatkan Tanpa Batas.",
+      "feature2_desc": "Protokol Optivus mengubah jaringan Anda menjadi mesin pertumbuhan dengan rujukan cerdas bertenaga blockchain. Bagikan. Dapatkan. Kembangkan – dengan mudah dan transparan, dengan hadiah yang dapat Anda percayai.",
+      "feature3_title": "Stake $OPTIV. Tumbuh dengan Tujuan.",
+      "feature3_desc": "Protokol Optivus memberdayakan masa depan finansial Anda dengan infrastruktur Web3 yang aman dan dapat diskalakan. Dapatkan hadiah sambil mendukung inovasi blockchain generasi berikutnya – cepat, andal, dan dibuat untuk bertahan lama."
+    }
+  },
+  "footer": {
+    "about": "Tentang / Whitepaper",
+    "faq": "FAQ",
+    "contact": "Kontak",
+    "terms": "Ketentuan Layanan",
+    "privacy": "Kebijakan Privasi",
+    "follow_us": "Ikuti kami di",
+    "copyright": "© {{year}} Optivus Protocol. Hak cipta dilindungi undang-undang."
+  },
+  "common": {
+    "backToHome": "Kembali ke Beranda",
+    "copied": "Disalin!",
+    "copy": "Salin",
+    "or": "Atau",
+    "status": {
+      "completed": "Selesai",
+      "pending": "Tertunda",
+      "failed": "Gagal",
+      "active": "Aktif",
+      "frozen": "Dibekukan",
+      "paused": "Dihentikan sementara"
+    }
+  },
+  "forms": {
+    "errors": {
+      "passwordsDoNotMatch": "Kata sandi tidak cocok.",
+      "generic": "Harap perbaiki kesalahan sebelum mengirimkan.",
+      "usernameTaken": "Nama pengguna sudah dipakai.",
+      "referralCodeRequired": "Kode rujukan diperlukan.",
+      "fieldRequired": "Bidang ini wajib diisi."
+    }
+  },
+  "loginPage": {
+    "title": "Selamat Datang Kembali!",
+    "subtitle": "Masuk dengan detail pribadi untuk masuk ke dasbor pengguna.",
+    "forgotPassword": "Lupa Kata Sandi?",
+    "noAccount": "Belum punya akun? ",
+    "signUp": "Daftar",
+    "areYouAdmin": "Apakah Anda seorang administrator? ",
+    "adminLogin": "Login Admin",
+    "form": {
+      "email": "Email",
+      "password": "Kata Sandi"
+    },
+    "2fa": {
+      "title": "Masukkan Kode 2FA",
+      "subtitle": "Masukkan kode dari aplikasi otentikator Anda untuk melanjutkan.",
+      "label": "Kode 2FA"
+    },
+    "buttons": {
+      "login": "Masuk",
+      "verify": "Verifikasi"
+    }
+  },
+  "signupPage": {
+    "authLayout": {
+      "title": "Bergabunglah dengan Protokol Optivus",
+      "subtitle": "Buat akun Anda untuk mulai mendapatkan komisi."
+    },
+    "details": {
+      "title": "Buat Akun",
+      "subtitle": "Gunakan kode rujukan Anda dan tambahkan detail pribadi Anda untuk membuat akun Protokol Optivus Anda sendiri.",
+      "usernameChecking": "Memeriksa...",
+      "usernameAvailable": "Nama pengguna tersedia!",
+      "usernameTaken": "Nama pengguna sudah dipakai.",
+      "referralCodePlaceholder": "Kode Referensi",
+      "button": "Buat",
+      "hasAccount": "Sudah punya akun? "
+    },
+    "payment": {
+      "button": "DAPATKAN AKSES"
+    },
+    "paymentModal": {
+      "title": "Selesaikan Pendaftaran Anda",
+      "subtitle": "Anda akan dikenakan biaya sekali sebesar £50.",
+      "cardholderName": "Nama Pemegang Kartu",
+      "cardNumber": "Nomor Kartu",
+      "cardNumberPlaceholder": "0000 0000 0000 0000",
+      "expiry": "Kadaluarsa (BB/TT)",
+      "expiryPlaceholder": "BB/TT",
+      "cvc": "CVC",
+      "cvcPlaceholder": "123",
+      "button": "Bayar £50 dengan Aman"
+    }
+  },
+  "forgotPasswordPage": {
+    "title": "Lupa Kata Sandi?",
+    "subtitle": "Tidak masalah. Masukkan email Anda untuk menerima tautan pengaturan ulang.",
+    "button": "Kirim Tautan Pengaturan Ulang",
+    "rememberPassword": "Ingat kata sandi Anda? ",
+    "success": {
+      "title": "Periksa Email Anda",
+      "message": "Jika ada akun dengan email tersebut, tautan pengaturan ulang kata sandi telah dikirim.",
+      "button": "Kembali ke Login"
+    }
+  },
+  "resetPasswordPage": {
+    "title": "Atur Kata Sandi Baru",
+    "subtitle": "Masukkan dan konfirmasi kata sandi baru Anda di bawah.",
+    "newPassword": "Kata Sandi Baru",
+    "confirmNewPassword": "Konfirmasi Kata Sandi Baru",
+    "button": "Atur Ulang Kata Sandi",
+    "errorToken": "Token pengaturan ulang tidak ditemukan. Harap minta tautan pengaturan ulang baru.",
+    "success": {
+      "title": "Kata Sandi Diatur Ulang!",
+      "button": "Kembali ke Login"
+    }
+  },
+  "contactPage": {
+    "title": "Hubungi Kami",
+    "subtitle": "Punya pertanyaan atau butuh bantuan? Isi formulir di bawah ini dan tim kami akan segera menghubungi Anda.",
+    "form": {
+      "name": "Nama Anda",
+      "email": "Email Anda",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "button": "Kirim Pesan"
+    },
+    "success": {
+      "title": "Pesan Terkirim!",
+      "message": "Pesan Anda telah diterima. Kami akan menghubungi Anda dalam 24 jam."
+    }
+  },
+  "faqPage": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "faqs": [
+      {
+        "question": "Apa itu Protokol Optivus?",
+        "answer": "Protokol Optivus adalah sistem pemasaran afiliasi multi-tier yang terdesentralisasi. Ini memungkinkan pengguna untuk mendapatkan komisi dengan merujuk orang lain ke platform melalui tautan rujukan unik."
+      },
+      {
+        "question": "Bagaimana cara bergabung?",
+        "answer": "Anda dapat bergabung dengan mendaftar dan membayar biaya masuk sekali sebesar £50. Ini mengaktifkan akun Anda dan memberi Anda tautan rujukan unik untuk dibagikan di mana Anda kemudian memiliki akses ke Discord eksklusif untuk mendapatkan hadiah."
+      },
+      {
+        "question": "Apakah biaya £50 dapat dikembalikan?",
+        "answer": "Tidak, sebagaimana dinyatakan dalam Ketentuan Layanan kami, biaya masuk tidak dapat dikembalikan. Biaya tersebut segera digunakan untuk mendanai pembayaran komisi dan menutupi biaya operasional protokol."
+      },
+      {
+        "question": "Untuk apa biaya pendaftaran digunakan?",
+        "answer": "Biaya operasional server dan sebagian besar dikembalikan kepada komunitas melalui pembelian kembali OPTIV dan didistribusikan secara adil dalam kompetisi komunitas."
+      },
+      {
+        "question": "Apa itu KYC?",
+        "answer": "KYC (Kenali Pelanggan Anda) adalah proses verifikasi yang diperlukan untuk penarikan fiat (bank) untuk mematuhi peraturan keuangan. Ini melibatkan pengiriman dokumen identifikasi. Penarikan kripto tidak memerlukan KYC."
+      },
+      {
+        "question": "Apakah data saya aman?",
+        "answer": "Ya, kami menjaga keamanan dengan serius. Kami menggunakan langkah-langkah standar industri untuk melindungi data Anda. Untuk keamanan yang lebih baik, kami sangat menyarankan untuk mengaktifkan Otentikasi Dua Faktor (2FA) di pengaturan akun Anda."
+      },
+      {
+        "question": "Bagaimana cara bergabung dengan Discord?",
+        "answer": "Discord disediakan untuk mereka yang mendaftar di situs web kami, OPTiVision, di mana tautan langsung akan diberikan untuk memastikan bahwa mereka yang telah berkontribusi adalah penerima manfaat tunggal dari hadiah."
+      },
+      {
+        "question": "Apakah saya harus mengundang orang untuk bergabung dalam kompetisi?",
+        "answer": "Tidak. Siapa pun yang membayar biaya sekali akan dapat ikut serta dalam kompetisi tetapi semakin banyak orang yang Anda bawa, semakin banyak entri yang akan Anda dapatkan, meningkatkan peluang Anda untuk memenangkan hadiah OPTIV."
+      }
+    ]
+  },
+  "privacyPage": {
+    "title": "Kebijakan Privasi",
+    "sections": [
+      {
+        "title": "1. Informasi yang Kami Kumpulkan",
+        "content": [
+          "Kami mengumpulkan informasi yang Anda berikan langsung kepada kami, seperti saat Anda membuat akun, melengkapi profil KYC Anda, atau menghubungi kami. Ini mungkin termasuk nama, alamat email, dan identifikasi yang dikeluarkan pemerintah.",
+          "Kami juga mengumpulkan informasi secara otomatis saat Anda menggunakan layanan kami, seperti alamat IP, informasi perangkat, dan riwayat transaksi di platform kami."
+        ]
+      },
+      {
+        "title": "2. Bagaimana Kami Menggunakan Informasi",
+        "content": [
+          "Kami menggunakan informasi yang kami kumpulkan untuk:",
+          "Menyediakan, memelihara, dan meningkatkan layanan kami;",
+          "Memproses transaksi dan mengirimi Anda informasi terkait, termasuk konfirmasi dan tanda terima;",
+          "Memverifikasi identitas Anda dan mencegah penipuan (KYC);",
+          "Berkomunikasi dengan Anda tentang produk, layanan, dan acara;",
+          "Memantau dan menganalisis tren, penggunaan, dan aktivitas sehubungan dengan layanan kami."
+        ]
+      },
+      {
+        "title": "3. Berbagi Data",
+        "content": [
+          "Kami tidak menjual informasi pribadi Anda. Kami dapat membagikan informasi Anda dengan vendor pihak ketiga dan penyedia layanan yang memerlukan akses ke informasi tersebut untuk melakukan pekerjaan atas nama kami (misalnya, prosesor pembayaran, layanan verifikasi KYC). Kami juga dapat membagikan informasi sebagai tanggapan atas permintaan informasi jika kami yakin pengungkapan tersebut sesuai dengan, atau diwajibkan oleh, hukum atau proses hukum yang berlaku."
+        ]
+      },
+      {
+        "title": "4. Keamanan",
+        "content": [
+          "Kami mengambil langkah-langkah yang wajar untuk membantu melindungi informasi tentang Anda dari kehilangan, pencurian, penyalahgunaan, dan akses, pengungkapan, perubahan, dan perusakan yang tidak sah."
+        ]
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "White Paper Protokol Optivus",
+    "version": "Versi 1.0 | Juli 2025",
+    "abstract": {
+      "title": "Abstrak",
+      "p1": "Protokol Optivus memajukan fase berikutnya dari Web3 melalui kombinasi tokenomics yang berkelanjutan, strategi pasokan tetap, dan pertumbuhan yang dipimpin oleh komunitas. Dirancang untuk stabilitas dan utilitas jangka panjang, token OPTIV memprioritaskan nilai dunia nyata, bukan sensasi spekulatif. Misi kami adalah menciptakan ekonomi digital yang lebih dapat dipercaya dan berpusat pada manusia dengan memberi penghargaan pada partisipasi yang berarti dan menghilangkan mekanisme predator dari persamaan Web3."
+    },
+    "introduction": {
+      "title": "1. Pendahuluan",
+      "p1": "Ekosistem Web3 telah berkembang pesat—tetapi seringkali dengan mengorbankan keberlanjutan jangka panjang, kepercayaan pengguna, dan utilitas yang berarti. Protokol Optivus memperkenalkan standar baru: token penyimpan nilai (OPTIV) yang sadar deflasi dengan pasokan tetap yang memberikan insentif untuk memegang, memperkuat partisipasi jaringan, dan selaras dengan prinsip-prinsip ekonomi nyata."
+    },
+    "visionMission": {
+      "title": "2. Visi & Misi",
+      "visionTitle": "Visi:",
+      "visionText": "Untuk menjadikan OPTIV sebagai penyimpan nilai digital modern—langka, aman, dan dapat diskalakan.",
+      "missionTitle": "Misi:",
+      "missionText": "Untuk memberdayakan pengguna melalui tokenomics yang adil, imbalan transparan, dan keselarasan jangka panjang, menciptakan ekosistem terdesentralisasi yang menguntungkan kontributor, bukan hanya pengadopsi awal atau spekulan."
+    },
+    "tokenOverview": {
+      "title": "3. Tinjauan Token",
+      "name": "Nama Token",
+      "symbol": "Simbol",
+      "supply": "Total Pasokan",
+      "price": "Harga Awal",
+      "liquidity": "Likuiditas yang Disediakan saat Peluncuran",
+      "pairings": "Pasangan Peluncuran",
+      "minting": "Kebijakan Pencetakan",
+      "burn": "Mekanisme Pembakaran",
+      "staking": "Staking"
+    },
+    "tokenomics": {
+      "title": "4. Desain Tokenomics",
+      "sovTitle": "4.1 Arsitektur Penyimpan Nilai",
+      "sovText": "Tidak seperti token berbasis sensasi yang mudah menguap, OPTIV dirancang untuk dipegang:",
+      "sovPoints": [
+        "Pasokan Maksimum Tetap: 10 miliar OPTIV – tanpa inflasi.",
+        "Potensi Deflasi: Dapat dibakar melalui transaksi, biaya, atau dipicu oleh tata kelola.",
+        "Siap-Staking: Mekanisme imbal hasil opsional melalui kumpulan yang ada, bukan inflasi."
+      ],
+      "sovConclusion": "Model ini mendukung kepercayaan jangka panjang dan meminimalkan volatilitas harga.",
+      "liquidityTitle": "4.2 Strategi Likuiditas",
+      "liquidityText": "Kumpulan Likuiditas Awal:",
+      "pool1Title": "OPTIV/USDC:",
+      "pool1Text1": "7 Juta OPTIV + $7.000 USDC",
+      "pool1Text2": "Memberikan stabilitas harga, ideal untuk pemegang jangka panjang",
+      "pool2Title": "OPTIV/SOL:",
+      "pool2Text1": "3 Juta OPTIV + $3.000 SOL",
+      "pool2Text2": "Mengurangi risiko paparan SOL selama penurunan pasar",
+      "liquidityPoints": [
+        "Melindungi harga dasar",
+        "Mendorong adopsi utilitas",
+        "Mengurangi dampak pembuangan token"
+      ]
+    },
+    "growthEngine": {
+      "title": "5. Mesin Pertumbuhan Berbasis Rujukan",
+      "p1": "Proyek kripto tradisional hanya memberi penghargaan kepada pembeli. Optivus memberi penghargaan kepada kontributor.",
+      "listTitle": "Sorotan Model Rujukan:",
+      "listItems": [
+        "Struktur imbalan multi-level",
+        "Memberi insentif pada ekspansi jaringan nyata",
+        "Memperkuat kepemilikan komunitas"
+      ],
+      "p2": "Sistem ini membuat proses orientasi Web3 menjadi inklusif, transparan, dan mengutamakan manusia."
+    },
+    "advancedTokenomics": {
+      "title": "6. Tokenomics Tingkat Lanjut dengan Tujuan",
+      "listItems": [
+        "Distribusi yang Adil: Tidak ada pencetakan tersembunyi atau alokasi orang dalam yang tidak adil",
+        "Transparansi: Akses publik ke aliran token, cadangan, dan imbalan",
+        "Cadangan yang Dikendalikan Perbendaharaan: Dana yang dicadangkan untuk pengembangan, pemasaran, dan stabilisasi"
+      ]
+    },
+    "optionalFeatures": {
+      "title": "7. Fitur Opsional untuk Ekspansi Berkelanjutan",
+      "burnTitle": "Fungsionalitas Pembakaran (Aktivasi di Masa Depan)",
+      "burnText": "Pembakaran manual atau otomatis dimungkinkan dari:",
+      "burnList": [
+        "Biaya transaksi",
+        "Penggunaan perbendaharaan",
+        "Proposal tata kelola"
+      ],
+      "burnGoal": "Tujuan: Mendorong kelangkaan jangka panjang dan pertumbuhan nilai",
+      "stakingTitle": "Sistem Staking (Sedang Ditinjau)",
+      "stakingList": [
+        "Potensi imbal hasil berbasis penguncian",
+        "Tidak ada emisi token baru — imbalan bersumber dari kumpulan token yang ada",
+        "Pengganda berbobot waktu sedang dipertimbangkan"
+      ]
+    },
+    "positioning": {
+      "title": "8. Posisi Strategis",
+      "identity": "Identitas Inti: \"Penyimpan nilai modern: langka, aman, dapat diskalakan.\"",
+      "pillarsTitle": "Pilar Pesan:",
+      "pillars": [
+        "Kelangkaan + Kepercayaan = Nilai",
+        "Pola pikir tahan-untuk-mendapatkan",
+        "Stabilitas > spekulasi"
+      ],
+      "taglinesTitle": "Slogan Utama:",
+      "taglines": [
+        "\"Dibuat untuk dipegang. Dirancang untuk tumbuh.”",
+        "\"Optivus: Masa depan Anda dalam bentuk digital.\"",
+        "\"Kekayaan yang bisa Anda miliki, bukan diinflasikan.\""
+      ]
+    },
+    "marketFit": {
+      "title": "9. Kecocokan Pasar & Audiens Target",
+      "audienceTitle": "Audiens—Proposisi Nilai",
+      "audiences": [
+        "Pemegang Jangka Panjang—Perlindungan aset, pasokan tetap, opsi staking",
+        "Pendatang Baru Kripto—Desain bersih, kasus penggunaan yang jelas, pendekatan yang mengutamakan kepercayaan",
+        "Pengguna DeFi—Mekanisme tingkat lanjut, potensi brankas/staking",
+        "Audiens Global—Lindung nilai terhadap inflasi, penyimpan nilai di pasar yang tidak stabil"
+      ]
+    },
+    "governance": {
+      "title": "10. Tata Kelola & Komunitas",
+      "p1": "Protokol Optivus dibangun di atas prinsip-prinsip yang mengutamakan komunitas. Pembaruan di masa mendatang meliputi:",
+      "listItems": [
+        "Pengambilan keputusan berbasis DAO",
+        "Integrasi token tata kelola",
+        "Sistem proposal dan pemungutan suara"
+      ],
+      "p2": "Semua dirancang untuk mengembalikan kekuatan nyata kepada pengguna, bukan tim terpusat."
+    },
+    "summary": {
+      "title": "11. Ringkasan Singkat",
+      "inflation_label": "Inflasi",
+      "burn_label": "Kemampuan Pembakaran",
+      "staking_label": "Staking",
+      "liquidity_label": "Strategi Likuiditas",
+      "narrative_label": "Naratif Utama",
+      "ethos_label": "Etos Peluncuran",
+      "supply": "10.000.000.000 OPTIV",
+      "inflation": "Tidak ada (batas tetap)",
+      "burn": "Opsional, bukan default",
+      "staking": "Opsional, tidak dilutif",
+      "price": "$0.0001",
+      "liquidity": "70% USDC / 30% SOL",
+      "narrative": "\"Emas digital dengan jangkauan dunia nyata\"",
+      "ethos": "Mengutamakan komunitas, anti-sensasi, didorong oleh kepercayaan"
+    },
+    "closing": {
+      "title": "12. Pikiran Penutup",
+      "p1": "Protokol Optivus bukan sekadar token lain. Ini adalah gerakan untuk merebut kembali apa yang seharusnya menjadi kripto—transparan, adil, dan memberdayakan. Dengan tokenomics yang kuat, desain yang berkelanjutan, dan insentif yang selaras dengan komunitas, OPTIV meletakkan dasar bagi ekonomi digital yang lebih stabil dan bermanfaat."
+    }
+  },
+  "termsPage": {
+    "title": "Ketentuan Layanan Program Protokol Optivus",
+    "lastUpdated": "Terakhir Diperbarui: 25/07/2025",
+    "intro": "Selamat datang di Program Rujukan Protokol Optivus (\"Program\"). Program ini dirancang untuk memberi penghargaan kepada komunitas kami karena berbagi akses ke Optivus dan ekosistemnya. Dengan berpartisipasi, Anda setuju untuk mematuhi Ketentuan Layanan ini (\"Ketentuan\"). Harap baca dengan saksama.",
+    "sections": [
+      {
+        "title": "Tinjauan",
+        "content": ["Program Rujukan Protokol Optivus adalah fitur opsional yang tersedia untuk pengguna platform OPTiVision. Dengan merujuk pengguna baru yang membeli akses ke layanan OPTiVision, peserta dapat menerima imbalan promosi terbatas. Partisipasi sepenuhnya sukarela dan tidak diperlukan untuk mengakses platform."]
+      },
+      {
+        "title": "Manfaat Akses Berbayar OPTiVision",
+        "content": ["Semua pengguna berbayar OPTiVision menerima:", "Akses penuh ke komunitas Discord eksklusif kami", "Akses ke dasbor staking dan analitik kinerja", "Kelayakan untuk airdrop komunitas, kompetisi, dan pembaruan", "<i>Catatan: Imbalan rujukan adalah bonus promosi opsional dan bukan bagian dari penawaran produk inti OPTiVision.</i>"]
+      },
+      {
+        "title": "Struktur Imbalan Rujukan",
+        "content": ["Tingkat Imbalan", "<strong>Tingkat 1 (Bonus Langsung):</strong> Imbalan untuk setiap pengguna yang dirujuk yang mendaftar dan membayar.", "<strong>Tingkat 2-6 (Bonus Tidak Langsung):</strong> Imbalan untuk rujukan yang dibuat oleh undangan Anda, menurun sebesar 15% per tingkat (misalnya, Tingkat 2 menerima 85% dari nilai Tingkat 1, Tingkat 3 menerima 70%, dll.).", "Kemungkinan Imbalan", "token $OPTIV", "Imbalan staking yang ditingkatkan", "Prioritas airdrop", "Setara tunai promosi (melalui Stripe, PayPal, atau metode lain yang didukung)", "<strong>Penting:</strong> Semua imbalan bersifat diskresioner, ketersediaannya terbatas, dan tidak dijamin. Bonus rujukan dapat diubah, ditangguhkan, atau dibatalkan kapan saja atas kebijakan tunggal Optivus."]
+      },
+      {
+        "title": "Aturan Program & Kewajiban Peserta",
+        "content": ["Program ini adalah kampanye promosi—bukan peluang penghasilan atau program investasi. Peserta harus menyetujui hal berikut:", "Membuat banyak akun, terlibat dalam penipuan, atau menyalahgunakan sistem rujukan akan mengakibatkan diskualifikasi segera.", "Tautan rujukan tidak boleh didistribusikan melalui spam, promosi yang menipu, atau melanggar Ketentuan Penggunaan Optivus.", "Peserta tidak boleh menyajikan Program sebagai sumber pendapatan atau peluang investasi yang dijamin.", "Bonus rujukan tidak bergantung pada volume rujukan hilir di luar tingkat keenam.", "Semua aktivitas promosi harus mematuhi hukum lokal, negara bagian, dan internasional."]
+      },
+      {
+        "title": "Pemberitahuan Hukum & Kepatuhan",
+        "content": ["Program ini bukan merupakan layanan keuangan, peluang investasi, atau skema penghasil pendapatan.", "Protokol Optivus tidak memberikan jaminan mengenai nilai moneter atau ketersediaan bonus rujukan apa pun.", "Peserta bertanggung jawab penuh untuk melaporkan imbalan apa pun sebagai pendapatan kena pajak, jika berlaku.", "Program ini tidak berlaku jika dilarang oleh hukum. Peserta harus mematuhi semua peraturan lokal yang relevan.", "Bonus rujukan didanai dari anggaran pemasaran Optivus—bukan dari pembayaran langganan pengguna.", "token $OPTIV dan pembayaran promosi tidak mewakili sekuritas, ekuitas, atau instrumen investasi.", "Partisipasi tidak berlaku jika pengguna melanggar Ketentuan Penggunaan Platform Optivus."]
+      },
+      {
+        "title": "Hadiah Promosi & Bonus Peluncuran",
+        "content": ["Sebagai bagian dari kampanye pemasaran, Optivus dapat menawarkan:", "Hadiah opsional token $OPTIV kepada pengguna aktif yang membayar", "Entri atau bonus tambahan untuk rujukan yang dibuat hingga enam tingkat", "Imbalan rujukan tidak langsung nominal (Tingkat 2–6), menurun sebesar 15% per tingkat untuk memastikan keadilan dan keberlanjutan", "<i>Penafian: Hadiah dan bonus peluncuran bersifat opsional dan terbatas waktu. Mereka tidak memiliki nilai moneter yang dijamin atau intrinsik dan dapat berubah.</i>"]
+      },
+      {
+        "title": "Administrasi & Otoritas Program",
+        "content": ["Optivus berhak untuk:", "Mengubah, menangguhkan, atau menghentikan Program kapan saja tanpa pemberitahuan sebelumnya", "Membuat keputusan akhir mengenai perselisihan, investigasi penipuan, dan penilaian kelayakan", "Menentukan kelayakan bonus, membatasi imbalan, dan menegakkan aturan Program atas kebijakan tunggalnya", "Untuk tetap memenuhi syarat untuk bonus rujukan, peserta harus:", "Mempertahankan langganan OPTiVision berbayar yang aktif", "Mematuhi semua kebijakan platform Optivus, termasuk Ketentuan Penggunaan", "Memastikan semua aktivitas promosi tetap sah dan selaras dengan pedoman platform"]
+      },
+      {
+        "title": "Pengakuan Ketentuan",
+        "content": ["Dengan berpartisipasi dalam Program Rujukan, Anda mengakui dan menyetujui bahwa:", "Anda membeli akses ke alat dan layanan OPTiVision—bukan produk investasi", "Bonus rujukan dan hadiah token adalah insentif promosi opsional dan tidak dijamin", "Partisipasi dalam Program Rujukan bersifat sekunder dari utilitas inti dan akses yang disediakan oleh OPTiVision", "Anda memahami dan menerima bahwa semua imbalan bersifat diskresioner, terbatas sifatnya, dan dapat diubah atau dicabut"]
+      }
+    ],
+    "contact": {
+      "title": "Pertanyaan & Dukungan",
+      "p1": "Jika Anda memiliki pertanyaan tentang Program Rujukan atau Ketentuan ini, silakan hubungi kami di:",
+      "p2": "Anda juga dapat menghubungi melalui komunitas Discord OPTiVision untuk dukungan dan pengumuman waktu nyata."
+    }
+  },
+  "testingBanner": {
+    "title": "Mode Pengujian Aktif",
+    "description": "Aplikasi ini berjalan di lingkungan simulasi. Semua data adalah data tiruan.",
+    "userLogin": "Login Pengguna:",
+    "email": "Email:",
+    "pass": "Sandi:",
+    "adminLogin": "Login Admin:"
+  },
+  "dashboard": {
+    "title": "Optivus | {{tab}}",
+    "discordAria": "Bergabung di Discord",
+    "tabs": {
+      "overview": "Tinjauan",
+      "team": "Tim",
+      "withdraw": "Tarik",
+      "history": "Riwayat",
+      "kyc": "KYC",
+      "settings": "Pengaturan"
+    },
+    "overview": {
+      "welcome": "Selamat datang kembali, {{name}}!",
+      "subtitle": "Berikut adalah cuplikan aktivitas protokol dan penghasilan Anda.",
+      "totalEarnings": "Total Penghasilan",
+      "totalTeamSize": "Total Ukuran Tim",
+      "directReferrals": "Rujukan Langsung",
+      "downlineTitle": "Downline Anda",
+      "level": "Tingkat",
+      "users": "Pengguna",
+      "earningsFromTier": "Penghasilan Dari Tingkat"
+    },
+    "referralCard": {
+      "title": "Bagikan & Dapatkan",
+      "linkTab": "Tautan Rujukan",
+      "codeTab": "Kode Rujukan",
+      "shareText": "Bergabunglah dengan saya di Protokol Optivus dan dapatkan komisi! Gunakan tautan saya untuk memulai:",
+      "shareAria": "Atau bagikan langsung di media sosial:",
+      "socials": {
+        "x": "Bagikan di X",
+        "facebook": "Bagikan di Facebook",
+        "whatsapp": "Bagikan di WhatsApp",
+        "telegram": "Bagikan di Telegram",
+        "linkedin": "Bagikan di LinkedIn"
+      }
+    },
+    "team": {
+      "title": "Tim Rujukan Anda",
+      "subtitle": "Visualisasikan downline Anda dan lacak kontribusi mereka.",
+      "teamSize": "Total Ukuran Tim",
+      "directReferrals": "Rujukan Langsung",
+      "structureTitle": "Struktur Tim",
+      "joined": "Bergabung",
+      "earningsFrom": "Penghasilan Dari",
+      "noReferrals": "Anda belum merujuk siapa pun. Bagikan kode rujukan Anda untuk mulai membangun tim Anda!"
+    },
+    "withdraw": {
+      "title": "Tarik Dana",
+      "balanceTitle": "Saldo yang Dapat Ditarik",
+      "form": {
+        "title": "Tarik melalui Stripe",
+        "connectedInfo": "Pembayaran akan dikirim ke Akun Stripe Anda yang terhubung.",
+        "amountLabel": "Jumlah (£)",
+        "pinLabel": "PIN Penarikan",
+        "pinPlaceholder": "Masukkan PIN Anda",
+        "2faLabel": "Kode 2FA",
+        "2faPlaceholder": "123456",
+        "button": "Tarik",
+        "noPinError": "Harap atur PIN penarikan di Pengaturan terlebih dahulu."
+      },
+      "stripe": {
+        "title": "Diperlukan Akun Stripe",
+        "subtitle": "Hubungkan akun Stripe Anda untuk mengaktifkan penarikan.",
+        "button": "Hubungkan Akun Stripe"
+      },
+      "kyc": {
+        "title": "Penarikan Terkunci",
+        "subtitle": "Harap selesaikan verifikasi KYC untuk mengaktifkan penarikan ke akun Stripe Anda.",
+        "button": "Pergi ke KYC"
+      }
+    },
+    "history": {
+      "title": "Riwayat Transaksi",
+      "date": "Tanggal",
+      "type": "Jenis",
+      "description": "Deskripsi",
+      "amount": "Jumlah",
+      "status": "Status",
+      "previous": "Sebelumnya",
+      "next": "Berikutnya",
+      "pageOf": "Halaman {{page}} dari {{totalPages}}"
+    },
+    "kyc": {
+      "title": "Verifikasi KYC",
+      "pending": {
+        "title": "Verifikasi Tertunda",
+        "message": "Dokumen Anda sedang ditinjau. Biasanya memakan waktu 1-2 hari kerja."
+      },
+      "verified": {
+        "title": "Verifikasi Selesai",
+        "message": "Anda telah diverifikasi sepenuhnya dan dapat mengakses semua fitur platform."
+      },
+      "rejected": {
+        "title": "Pengajuan Ditolak",
+        "reason": "Alasan: {{reason}}",
+        "noReason": "Alasan: Tidak ada alasan yang diberikan.",
+        "instruction": "Harap perbaiki masalah dan kirim ulang informasi Anda di bawah ini."
+      },
+      "form": {
+        "personalInfo": "Informasi Pribadi",
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "addressInfo": "Informasi Alamat",
+        "streetAddress": "Alamat Jalan",
+        "city": "Kota",
+        "postalCode": "Kode Pos",
+        "country": "Negara",
+        "docUpload": "Unggah Dokumen",
+        "docInstruction": "Unggah gambar yang jelas dari Paspor atau Surat Izin Mengemudi Anda.",
+        "payoutMethod": "Siapkan Metode Pembayaran",
+        "payoutConnected": "Akun Stripe Berhasil Terhubung",
+        "payoutInstruction": "Hubungkan akun Stripe untuk menerima pembayaran.",
+        "payoutButton": "Hubungkan dengan Stripe",
+        "submitButton": "Kirim untuk Verifikasi",
+        "resubmitButton": "Kirim Ulang untuk Verifikasi"
+      }
+    },
+    "settings": {
+      "title": "Pengaturan",
+      "profile": {
+        "title": "Informasi Profil",
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "email": "Alamat Email",
+        "button": "Simpan Perubahan",
+        "success": "Profil berhasil diperbarui!"
+      },
+      "password": {
+        "title": "Ubah Kata Sandi",
+        "current": "Kata Sandi Saat Ini",
+        "new": "Kata Sandi Baru",
+        "confirm": "Konfirmasi Kata Sandi Baru",
+        "button": "Ubah Kata Sandi"
+      },
+      "pin": {
+        "title": "Kelola PIN Penarikan",
+        "isSet": "PIN Anda sudah diatur. Untuk keamanan, pengaturan ulang PIN ditangani melalui dukungan.",
+        "newPin": "PIN 4-6 Digit Baru",
+        "confirmPin": "Konfirmasi PIN",
+        "buttonSet": "Atur PIN",
+        "emailCode": "Kode Verifikasi Email",
+        "buttonConfirm": "Konfirmasi & Atur PIN",
+        "errorLength": "PIN harus antara 4 dan 6 digit.",
+        "errorMatch": "PIN tidak cocok."
+      },
+      "2fa": {
+        "title": "Otentikasi Dua Faktor (2FA)",
+        "description": "Tingkatkan keamanan akun Anda dengan memerlukan langkah verifikasi kedua saat login dan penarikan.",
+        "enableModalTitle": "Aktifkan 2FA",
+        "disableModalTitle": "Nonaktifkan 2FA",
+        "enableStep1": "1. Pindai kode QR dengan aplikasi otentikator Anda.",
+        "enableStep2": "Atau masukkan kunci ini secara manual:",
+        "enableStep3": "2. Masukkan kode 6 digit dari aplikasi Anda.",
+        "verificationCode": "Kode Verifikasi",
+        "buttonVerifyEnable": "Verifikasi & Aktifkan",
+        "disablePrompt": "Untuk mengonfirmasi, harap masukkan kode 6 digit dari aplikasi otentikator Anda.",
+        "authCode": "Kode Otentikasi",
+        "buttonVerifyDisable": "Konfirmasi & Nonaktifkan"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin: {{tab}}",
+    "loginPage": {
+      "title": "Portal Admin",
+      "subtitle": "Harap login untuk melanjutkan.",
+      "emailPlaceholder": "Email Admin",
+      "passwordPlaceholder": "Kata Sandi Admin",
+      "button": "Login",
+      "return": "Kembali ke login pengguna",
+      "footer": "© Protokol Optivus. Akses Admin."
+    },
+    "sidebar": {
+      "overview": "Tinjauan",
+      "userManagement": "Manajemen Pengguna",
+      "kycManagement": "Manajemen KYC",
+      "withdrawals": "Penarikan",
+      "transactions": "Transaksi",
+      "role": "Administrator"
+    },
+    "overview": {
+      "title": "Dasbor Admin",
+      "masterDashboardTitle": "Dasbor Akun Master",
+      "totalRefEarnings": "Total Penghasilan Rujukan",
+      "balance": "Saldo",
+      "withdrawalsCard": {
+        "title": "Manajemen Penarikan",
+        "subtitle": "Kelola dan tarik saldo akun master.",
+        "link": "Pergi ke Penarikan →"
+      },
+      "platformControlsTitle": "Kontrol & Tinjauan Platform",
+      "totalUserEarnings": "Total Penghasilan Rujukan Pengguna",
+      "totalUserEarningsDesc": "Jumlah kumulatif komisi dan bonus yang didistribusikan ke semua pengguna.",
+      "protocolBalance": "Saldo Protokol yang Tersisa",
+      "protocolBalanceDesc": "Ini adalah saldo yang tersisa dari biaya yang tersedia untuk ditarik oleh administrator protokol.",
+      "totalUsers": "Total Pengguna",
+      "pendingWithdrawals": "Penarikan Tertunda",
+      "masterAccountCard": {
+        "title": "Akun Master",
+        "desc": "Ini adalah akun premade dari mana semua rantai rujukan berasal.",
+        "username": "Nama Pengguna:",
+        "refCode": "Kode Ref:"
+      },
+      "globalWithdrawalsCard": {
+        "title": "Kontrol Penarikan Global",
+        "allUserWithdrawals": "Semua Penarikan Pengguna",
+        "desc": "Sakelar ini segera menghentikan sementara atau melanjutkan penarikan untuk semua pengguna di platform."
+      }
+    },
+    "userManagement": {
+      "title": "Manajemen Pengguna",
+      "createButton": "Buat Akun Tingkat 2",
+      "searchPlaceholder": "Cari berdasarkan nama, email, atau nama pengguna...",
+      "table": {
+        "name": "Nama",
+        "email": "Email",
+        "balance": "Saldo",
+        "status": "Status",
+        "actions": "Tindakan",
+        "manage": "Kelola"
+      }
+    },
+    "userDetailModal": {
+      "title": "Kelola Pengguna: {{name}}",
+      "info": "Info Akun",
+      "email": "Email:",
+      "username": "Nama Pengguna:",
+      "kycStatus": "Status KYC:",
+      "adjustBalance": "Sesuaikan Saldo",
+      "accountStatus": "Status Akun",
+      "withdrawalStatus": "Status Penarikan",
+      "save": "Simpan Perubahan",
+      "cancel": "Batal",
+      "success": "Pengguna berhasil diperbarui!"
+    },
+    "createUserModal": {
+      "title": "Buat Akun Tingkat 2 Baru",
+      "desc": "Buat akun pengguna baru secara manual. Akun ini tidak memerlukan biaya pembayaran. Anda dapat secara opsional menetapkan perujuk.",
+      "firstName": "Nama Depan",
+      "lastName": "Nama Belakang",
+      "email": "Alamat Email",
+      "username": "Nama Pengguna",
+      "referrer": "Nama Pengguna Perujuk (Opsional)",
+      "password": "Kata Sandi",
+      "passwordNote": "Kata sandi default disediakan. Pengguna dapat mengubahnya setelah login.",
+      "button": "Buat Pengguna"
+    },
+    "transactions": {
+      "title": "Riwayat Transaksi Global"
+    },
+    "withdrawals": {
+      "title": "Manajemen Penarikan",
+      "method": "Metode",
+      "noRequests": "Tidak ada permintaan penarikan yang tertunda.",
+      "approve": "Setujui",
+      "deny": "Tolak"
+    },
+    "kyc": {
+      "title": "Manajemen KYC",
+      "submitted": "Dikirim:",
+      "addressDetails": "Detail Alamat",
+      "viewDocument": "Lihat Dokumen",
+      "noRequests": "Tidak ada permintaan KYC yang tertunda.",
+      "rejectionModal": {
+        "title": "Tolak Pengajuan KYC",
+        "prompt": "Harap berikan alasan untuk menolak pengajuan untuk {{name}}.",
+        "reasonLabel": "Alasan Penolakan (opsional)",
+        "reasonPlaceholder": "misalnya, Dokumen buram.",
+        "confirm": "Konfirmasi Penolakan"
+      }
+    }
+  }
+}
