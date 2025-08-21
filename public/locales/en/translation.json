@@ -1,0 +1,686 @@
+
+{
+  "header": {
+    "home": "Home",
+    "whitepaper": "Whitepaper",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Sign Up",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "welcome": "Welcome, {{name}}",
+    "launch_app": "Launch App",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "pre_title": "Next-generation Modular DeFi<br/>infrastructure for scalable,permissionless<br/>finance.",
+      "title": "Own your value.<br/>Grow your<br/>network.",
+      "tagline": "$OPTIV is our Store of Value Powered by OPTIVision",
+      "cta": "GET STARTED – £50 ONE-TIME FEE"
+    },
+    "ideas_section": {
+      "title": "Bringing Ideas to<br/>Life",
+      "subtitle": "Optivus Protocol: The Smarter Way to Earn. Stake,<br/> refer, and grow with $OPTIV — the next-generation<br/> asset for passive income and long-term value."
+    },
+    "vision_section": {
+      "title": "OPTIVision",
+      "feature1_title": "Buy $OPTIV. Direct, Fast, Secure.",
+      "feature1_desc": "Optivus Protocol makes it simple to invest in your future – no third parties, no delays. Purchase $OPTIV instantly on-site with full transparency and total control.",
+      "feature2_title": "Refer with Optivus. Earn Without Limits.",
+      "feature2_desc": "Optivus Protocol turns your network into a growth engine with smart, blockchain-powered referrals. Share. Earn. Expand – effortlessly and transparently, with rewards you can trust.",
+      "feature3_title": "Stake $OPTIV. Grow with Purpose.",
+      "feature3_desc": "Optivus Protocol empowers your financial future with secure, scalable Web3 infrastructure. Earn rewards while supporting next-gen blockchain innovation – fast, reliable, and built to last."
+    }
+  },
+  "footer": {
+    "about": "About / Whitepaper",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "follow_us": "Follow us on",
+    "copyright": "© {{year}} Optivus Protocol. All rights reserved."
+  },
+  "common": {
+    "backToHome": "Back to Home",
+    "copied": "Copied!",
+    "copy": "Copy",
+    "or": "Or",
+    "status": {
+      "completed": "Completed",
+      "pending": "Pending",
+      "failed": "Failed",
+      "active": "Active",
+      "frozen": "Frozen",
+      "paused": "Paused"
+    }
+  },
+  "forms": {
+    "errors": {
+      "passwordsDoNotMatch": "Passwords do not match.",
+      "generic": "Please fix the errors before submitting.",
+      "usernameTaken": "Username is already taken.",
+      "referralCodeRequired": "A referral code is required.",
+      "fieldRequired": "This field is required."
+    }
+  },
+  "loginPage": {
+    "title": "Welcome Back!",
+    "subtitle": "Log In with personal details to enter user dashboard.",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account? ",
+    "signUp": "Sign Up",
+    "areYouAdmin": "Are you an administrator? ",
+    "adminLogin": "Admin Login",
+    "form": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "2fa": {
+      "title": "Enter 2FA Code",
+      "subtitle": "Enter the code from your authenticator app to continue.",
+      "label": "2FA Code"
+    },
+    "buttons": {
+      "login": "Log In",
+      "verify": "Verify"
+    }
+  },
+  "signupPage": {
+    "authLayout": {
+        "title": "Join the Optivus Protocol",
+        "subtitle": "Create your account to start earning commissions."
+    },
+    "details": {
+      "title": "Create Account",
+      "subtitle": "Use your referral code and add your personal details to create your own Optivus Protocol account.",
+      "usernameChecking": "Checking...",
+      "usernameAvailable": "Username is available!",
+      "usernameTaken": "Username is already taken.",
+      "referralCodePlaceholder": "Referral Code",
+      "button": "Create Account",
+      "hasAccount": "Already have an account? "
+    },
+    "payment": {
+      "button": "Proceed to Payment"
+    },
+    "paymentModal": {
+      "title": "Complete Your Registration",
+      "subtitle": "You will be charged a one-time fee of £50.",
+      "cardholderName": "Cardholder Name",
+      "cardNumber": "Card Number",
+      "cardNumberPlaceholder": "0000 0000 0000 0000",
+      "expiry": "Expiry (MM/YY)",
+      "expiryPlaceholder": "MM/YY",
+      "cvc": "CVC",
+      "cvcPlaceholder": "123",
+      "button": "Pay £50 & Complete Signup"
+    }
+  },
+  "forgotPasswordPage": {
+    "title": "Forgot Password?",
+    "subtitle": "No problem. Enter your email to receive a reset link.",
+    "button": "Send Reset Link",
+    "rememberPassword": "Remember your password? ",
+    "success": {
+      "title": "Check Your Email",
+      "message": "If an account with that email exists, a password reset link has been sent.",
+      "button": "Back to Login"
+    }
+  },
+  "resetPasswordPage": {
+    "title": "Set New Password",
+    "subtitle": "Enter and confirm your new password below.",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "button": "Reset Password",
+    "errorToken": "No reset token found. Please request a new reset link.",
+    "success": {
+      "title": "Password Reset!",
+      "button": "Back to Login"
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Have a question or need assistance? Fill out the form below and our team will get back to you shortly.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "button": "Send Message"
+    },
+    "success": {
+      "title": "Message Sent!",
+      "message": "Your message has been received. We will get back to you within 24 hours."
+    }
+  },
+  "faqPage": {
+    "title": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "question": "What is the Optivus Protocol?",
+        "answer": "Optivus Protocol is a decentralized, multi-tier affiliate marketing system. It allows users to earn commissions by referring others to the platform through a unique referral link."
+      },
+      {
+        "question": "How do I join?",
+        "answer": "You can join by signing up and paying a one-time £50 entry fee. This activates your account and gives you a unique referral link to share where you then have access to the exclusive Discord to obtain rewards."
+      },
+      {
+        "question": "Is the £50 fee refundable?",
+        "answer": "No, as stated in our Terms of Service, the entry fee is non-refundable. It is immediately used to fund the commission payouts and cover protocol operational costs."
+      },
+      {
+        "question": "Where is the sign up fee used for?",
+        "answer": "Operational costs of the server and a large portion is given back to the community via OPTIV buy backs and distributed fairly in community competitions."
+      },
+      {
+        "question": "What is KYC?",
+        "answer": "KYC (Know Your Customer) is a verification process required for fiat (bank) withdrawals to comply with financial regulations. It involves submitting identification documents. Crypto withdrawals do not require KYC."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Yes, we take security seriously. We use industry-standard measures to protect your data. For enhanced security, we strongly recommend enabling Two-Factor Authentication (2FA) in your account settings."
+      },
+      {
+        "question": "How do I join Discord?",
+        "answer": "Discord is reserved for those who sign up with our website OPTiVision where a direct link will be provided to ensure those who have contributed are the soul benefactors of the giveaways."
+      },
+      {
+        "question": "Do I have to invite people to join the competitions?",
+        "answer": "No. Anyone who pays their one time fee will be able to take place in the competitions but the more people you bring the more entries you will get, increasing your odds of winning OPTIV giveaways."
+      }
+    ]
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "content": [
+          "We collect information you provide directly to us, such as when you create an account, complete your KYC profile, or contact us. This may include your name, email address, and government-issued identification.",
+          "We also collect information automatically when you use our services, such as your IP address, device information, and transaction history on our platform."
+        ]
+      },
+      {
+        "title": "2. How We Use Information",
+        "content": [
+          "We use the information we collect to:",
+          "Provide, maintain, and improve our services;",
+          "Process transactions and send you related information, including confirmations and receipts;",
+          "Verify your identity and prevent fraud (KYC);",
+          "Communicate with you about products, services, and events;",
+          "Monitor and analyze trends, usage, and activities in connection with our services."
+        ]
+      },
+      {
+        "title": "3. Data Sharing",
+        "content": [
+          "We do not sell your personal information. We may share your information with third-party vendors and service providers who need access to such information to carry out work on our behalf (e.g., payment processors, KYC verification services). We may also share information in response to a request for information if we believe disclosure is in accordance with, or required by, any applicable law or legal process."
+        ]
+      },
+      {
+        "title": "4. Security",
+        "content": [
+          "We take reasonable measures to help protect information about you from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction."
+        ]
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "Optivus Protocol White Paper",
+    "version": "Version 1.0 | July 2025",
+    "abstract": {
+      "title": "Abstract",
+      "p1": "Optivus Protocol is advancing the next phase of Web3 through a combination of sustainable tokenomics, fixed supply strategy, and community-led growth. Designed for stability and long-term utility, the OPTIV token prioritizes real-world value, not speculative hype. Our mission is to create a more trustworthy, human-centered digital economy by rewarding meaningful participation and removing predatory mechanics from the Web3 equation."
+    },
+    "introduction": {
+      "title": "1. Introduction",
+      "p1": "The Web3 ecosystem has grown rapidly—but often at the cost of long-term sustainability, user trust, and meaningful utility. Optivus Protocol introduces a new standard: a fixed-supply, deflation-aware store-of-value token (OPTIV) that incentivizes holding, strengthens network participation, and aligns with real economic principles."
+    },
+    "visionMission": {
+      "title": "2. Vision & Mission",
+      "visionTitle": "Vision:",
+      "visionText": "To establish OPTIV as a modern digital store of value—scarce, secure, and scalable.",
+      "missionTitle": "Mission:",
+      "missionText": "To empower users through fair tokenomics, transparent rewards, and long-term alignment, creating a decentralized ecosystem that benefits contributors, not just early adopters or speculators."
+    },
+    "tokenOverview": {
+      "title": "3. Token Overview",
+      "name": "Token Name",
+      "symbol": "Symbol",
+      "supply": "Total Supply",
+      "price": "Starting Price",
+      "liquidity": "Liquidity Provided at Launch",
+      "pairings": "Launch Pairings",
+      "minting": "Minting Policy",
+      "burn": "Burn Mechanism",
+      "staking": "Staking"
+    },
+    "tokenomics": {
+      "title": "4. Tokenomics Design",
+      "sovTitle": "4.1 Store-of-Value Architecture",
+      "sovText": "Unlike volatile, hype-based tokens, OPTIV is engineered to be held:",
+      "sovPoints": [
+        "Fixed Max Supply: 10 billion OPTIV – no inflation.",
+        "Deflationary Potential: Burnable via transactions, fees, or governance-triggered.",
+        "Staking-Ready: Optional yield mechanics via existing pool, not inflation."
+      ],
+      "sovConclusion": "This model supports long-term trust and minimizes price volatility.",
+      "liquidityTitle": "4.2 Liquidity Strategy",
+      "liquidityText": "Initial Liquidity Pool:",
+      "pool1Title": "OPTIV/USDC:",
+      "pool1Text1": "7M OPTIV + $7,000 USDC",
+      "pool1Text2": "Provides price stability, ideal for long-term holders",
+      "pool2Title": "OPTIV/SOL:",
+      "pool2Text1": "3M OPTIV + $3,000 SOL",
+      "pool2Text2": "Reduces SOL exposure risk during market downturns",
+      "liquidityPoints": [
+        "Protects price floor",
+        "Encourages utility adoption",
+        "Reduces impact of token dumps"
+      ]
+    },
+    "growthEngine": {
+      "title": "5. Referral-Based Growth Engine",
+      "p1": "Traditional crypto projects reward only buyers. Optivus rewards contributors.",
+      "listTitle": "Referral Model Highlights:",
+      "listItems": [
+        "Multi-level rewards structure",
+        "Incentivizes real network expansion",
+        "Strengthens community ownership"
+      ],
+      "p2": "This system makes the Web3 onboarding process inclusive, transparent, and human-first."
+    },
+    "advancedTokenomics": {
+      "title": "6. Advanced Tokenomics with Purpose",
+      "listItems": [
+        "Fair Distribution: No hidden minting or unfair insider allocations",
+        "Transparency: Public access to token flow, reserves, and rewards",
+        "Treasury-Controlled Reserves: Reserved funds for development, marketing, and stabilization"
+      ]
+    },
+    "optionalFeatures": {
+      "title": "7. Optional Features for Sustainable Expansion",
+      "burnTitle": "Burn Functionality (Future Activation)",
+      "burnText": "Manual or automated burns possible from:",
+      "burnList": [
+        "Transaction fees",
+        "Treasury usage",
+        "Governance proposals"
+      ],
+      "burnGoal": "Goal: Encourage long-term scarcity and value growth",
+      "stakingTitle": "Staking System (Under Review)",
+      "stakingList": [
+        "Lockup-based yield potential",
+        "No new token emissions — rewards sourced from existing token pool",
+        "Time-weighted multipliers under consideration"
+      ]
+    },
+    "positioning": {
+      "title": "8. Strategic Positioning",
+      "identity": "Core Identity: \"The modern store of value: scarce, secure, scalable.\"",
+      "pillarsTitle": "Messaging Pillars:",
+      "pillars": [
+        "Scarcity + Trust = Value",
+        "Hold-to-earn mindset",
+        "Stability > speculation"
+      ],
+      "taglinesTitle": "Key Taglines:",
+      "taglines": [
+        "\"Built to hold. Designed to grow.”",
+        "\"Optivus: Your future in digital form.\"",
+        "\"Wealth you can own, not inflate.\""
+      ]
+    },
+    "marketFit": {
+      "title": "9. Market Fit & Target Audiences",
+      "audienceTitle": "Audience—Value Proposition",
+      "audiences": [
+        "Long-Term Holders—Asset protection, fixed supply, staking options",
+        "Crypto Newcomers—Clean design, clear use case, trust-first approach",
+        "DeFi Users—Advanced mechanics, vault/staking potential",
+        "Global Audiences—Hedge against inflation, store of value in unstable markets"
+      ]
+    },
+    "governance": {
+      "title": "10. Governance & Community",
+      "p1": "Optivus Protocol is built on community-first principles. Future updates include:",
+      "listItems": [
+        "DAO-based decision-making",
+        "Governance token integrations",
+        "Proposal and voting systems"
+      ],
+      "p2": "All designed to give real power back to users, not centralized teams."
+    },
+    "summary": {
+      "title": "11. Summary Snapshot",
+      "inflation_label": "Inflation",
+      "burn_label": "Burn Capabilities",
+      "staking_label": "Staking",
+      "liquidity_label": "Liquidity Strategy",
+      "narrative_label": "Primary Narrative",
+      "ethos_label": "Launch Ethos",
+      "supply": "10,000,000,000 OPTIV",
+      "inflation": "None (fixed cap)",
+      "burn": "Optional, not default",
+      "staking": "Optional, non-dilutive",
+      "price": "$0.0001",
+      "liquidity": "70% USDC / 30% SOL",
+      "narrative": "\"Digital gold with real-world reach\"",
+      "ethos": "Community-first, anti-hype, trust-driven"
+    },
+    "closing": {
+      "title": "12. Closing Thoughts",
+      "p1": "Optivus Protocol isn't just another token. It's a movement to reclaim what crypto was meant to be—transparent, fair, and empowering. With robust tokenomics, sustainable design, and community-aligned incentives, OPTIV is laying the foundation for a more stable and rewarding digital economy."
+    }
+  },
+  "termsPage": {
+    "title": "Optivus Protocol Program Terms of Service",
+    "lastUpdated": "Last Updated: 25/07/2025",
+    "intro": "Welcome to the Optivus Protocol Referral Program (\"Program\"). This Program is designed to reward our community for sharing access to Optivus and its ecosystem. By participating, you agree to comply with these Terms of Service (\"Terms\"). Please read them carefully.",
+    "sections": [
+        { "title": "Overview", "content": ["The Optivus Protocol Referral Program is an optional feature available to users of the OPTiVision platform. By referring new users who purchase access to OPTiVision services, participants may receive limited promotional rewards. Participation is entirely voluntary and is not required to access the platform."] },
+        { "title": "OPTiVision Paid Access Benefits", "content": ["All paying users of OPTiVision receive:", "Full access to our exclusive Discord community", "Access to staking dashboards and performance analytics", "Eligibility for community airdrops, competitions, and updates", "<i>Note: Referral rewards are optional promotional bonuses and are not part of the core OPTiVision product offering.</i>"] },
+        { 
+          "title": "Referral Rewards Structure", 
+          "content": [
+            "Reward Levels", "<strong>Level 1 (Direct Bonus):</strong> A reward for each referred user who signs up and pays.", "<strong>Levels 2-6 (Indirect Bonus):</strong> Rewards for referrals made by your invitees, decreasing by 15% per level (e.g., Level 2 receives 85% of Level 1 value, Level 3 receives 70%, etc.).", 
+            "Possible Rewards", "$OPTIV tokens", "Boosted staking rewards", "Airdrop priority", "Promotional cash equivalents (via Stripe, PayPal, or other supported methods)", 
+            "<strong>Important:</strong> All rewards are discretionary, limited in availability, and not guaranteed. Referral bonuses are subject to modification, suspension, or cancellation at any time at Optivus' sole discretion."
+          ] 
+        },
+        { "title": "Program Rules & Participant Obligations", "content": ["This Program is a promotional campaign—not an income opportunity or investment program. Participants must agree to the following:", "Creating multiple accounts, engaging in fraud, or abusing the referral system will result in immediate disqualification.", "Referral links must not be distributed through spam, deceptive promotions, or in violation of Optivus' Terms of Use.", "Participants may not present the Program as a guaranteed source of income or investment opportunity.", "Referral bonuses are not dependent on downstream referral volume beyond the sixth level.", "All promotional activities must comply with local, state, and international laws."] },
+        { "title": "Legal & Compliance Notice", "content": ["This Program does not constitute a financial service, investment opportunity, or income-generating scheme.", "Optivus Protocol makes no guarantees regarding the monetary value or availability of any referral bonus.", "Participants are solely responsible for reporting any rewards as taxable income, where applicable.", "The Program is void where prohibited by law. Participants must comply with all relevant local regulations.", "Referral bonuses are funded from Optivus' marketing budget—not from user subscription payments.", "$OPTIV tokens and promotional payouts do not represent securities, equity, or investment instruments.", "Participation is void if a user violates Optivus Platform Terms of Use."] },
+        { "title": "Promotional Giveaways & Launch Bonuses", "content": ["As part of marketing campaigns, Optivus may offer:", "Optional giveaways of $OPTIV tokens to active, paying users", "Additional entries or bonuses for referrals made up to six levels", "Nominal indirect referral rewards (Levels 2–6), decreasing by 15% per level to ensure fairness and sustainability", "<i>Disclaimer: Giveaways and launch bonuses are optional and time-limited. They hold no guaranteed or intrinsic monetary value and are subject to change.</i>"] },
+        { "title": "Program Administration & Authority", "content": ["Optivus reserves the right to:", "Modify, suspend, or terminate the Program at any time without prior notice", "Make final decisions regarding disputes, fraud investigations, and eligibility assessments", "Determine bonus eligibility, limit rewards, and enforce Program rules at its sole discretion", "To remain eligible for referral bonuses, participants must:", "Maintain an active, paid OPTiVision subscription", "Abide by all Optivus platform policies, including the Terms of Use", "Ensure all promotional activity remains lawful and aligned with platform guidelines"] },
+        { "title": "Acknowledgment of Terms", "content": ["By participating in the Referral Program, you acknowledge and agree that:", "You are purchasing access to OPTiVision tools and services—not an investment product", "Referral bonuses and token giveaways are optional promotional incentives and are not guaranteed", "Participation in the Referral Program is secondary to the core utility and access provided by OPTiVision", "You understand and accept that all rewards are discretionary, limited in nature, and may be modified or revoked"] }
+    ],
+    "contact": {
+        "title": "Questions & Support",
+        "p1": "If you have questions about the Referral Program or these Terms, please contact us at:",
+        "p2": "You may also reach out via the OPTiVision Discord community for real-time support and announcements."
+    }
+  },
+  "testingBanner": {
+    "title": "Testing Mode Active",
+    "description": "This application is running in a simulated environment. All data is mock data.",
+    "userLogin": "User Login:",
+    "email": "Email:",
+    "pass": "Pass:",
+    "adminLogin": "Admin Login:"
+  },
+  "dashboard": {
+    "title": "Optivus | {{tab}}",
+    "discordAria": "Join on Discord",
+    "tabs": {
+        "overview": "Overview",
+        "team": "Team",
+        "withdraw": "Withdraw",
+        "history": "History",
+        "kyc": "KYC",
+        "settings": "Settings"
+    },
+    "overview": {
+        "welcome": "Welcome back, {{name}}!",
+        "subtitle": "Here's a snapshot of your protocol activity and earnings.",
+        "totalEarnings": "Total Earnings",
+        "totalTeamSize": "Total Team Size",
+        "directReferrals": "Direct Referrals",
+        "downlineTitle": "Your Downline",
+        "level": "Level",
+        "users": "Users",
+        "earningsFromTier": "Earnings From Tier"
+    },
+    "referralCard": {
+        "title": "Share & Earn",
+        "linkTab": "Referral Link",
+        "codeTab": "Referral Code",
+        "shareText": "Join me on Optivus Protocol and earn commissions! Use my link to get started:",
+        "shareAria": "Or share directly on social media:",
+        "socials": {
+          "x": "Share on X",
+          "facebook": "Share on Facebook",
+          "whatsapp": "Share on WhatsApp",
+          "telegram": "Share on Telegram",
+          "linkedin": "Share on LinkedIn"
+        }
+    },
+    "team": {
+        "title": "Your Referral Team",
+        "subtitle": "Visualize your downline and track their contribution.",
+        "teamSize": "Total Team Size",
+        "directReferrals": "Direct Referrals",
+        "structureTitle": "Team Structure",
+        "joined": "Joined",
+        "earningsFrom": "Earnings From",
+        "noReferrals": "You haven't referred anyone yet. Share your referral code to start building your team!"
+    },
+    "withdraw": {
+        "title": "Withdraw Funds",
+        "balanceTitle": "Withdrawable Balance",
+        "form": {
+            "title": "Withdraw via Stripe",
+            "connectedInfo": "Payouts will be sent to your connected Stripe Account.",
+            "amountLabel": "Amount (£)",
+            "pinLabel": "Withdrawal PIN",
+            "pinPlaceholder": "Enter your PIN",
+            "2faLabel": "2FA Code",
+            "2faPlaceholder": "123456",
+            "button": "Withdraw",
+            "noPinError": "Please set up a withdrawal PIN in Settings first."
+        },
+        "stripe": {
+            "title": "Stripe Account Required",
+            "subtitle": "Connect your Stripe account to enable withdrawals.",
+            "button": "Connect Stripe Account"
+        },
+        "kyc": {
+            "title": "Withdrawals Locked",
+            "subtitle": "Please complete KYC verification to enable withdrawals to your Stripe account.",
+            "button": "Go to KYC"
+        }
+    },
+    "history": {
+        "title": "Transaction History",
+        "date": "Date",
+        "type": "Type",
+        "description": "Description",
+        "amount": "Amount",
+        "status": "Status",
+        "previous": "Previous",
+        "next": "Next",
+        "pageOf": "Page {{page}} of {{totalPages}}"
+    },
+    "kyc": {
+        "title": "KYC Verification",
+        "pending": {
+            "title": "Verification Pending",
+            "message": "Your documents are under review. This usually takes 1-2 business days."
+        },
+        "verified": {
+            "title": "Verification Complete",
+            "message": "You have been fully verified and can access all platform features."
+        },
+        "rejected": {
+            "title": "Submission Rejected",
+            "reason": "Reason: {{reason}}",
+            "noReason": "Reason: No reason provided.",
+            "instruction": "Please correct the issues and resubmit your information below."
+        },
+        "form": {
+            "personalInfo": "Personal Information",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "addressInfo": "Address Information",
+            "streetAddress": "Street Address",
+            "city": "City",
+            "postalCode": "Postal Code",
+            "country": "Country",
+            "docUpload": "Document Upload",
+            "docInstruction": "Upload a clear image of your Passport or Driver's License.",
+            "payoutMethod": "Set Up Payout Method",
+            "payoutConnected": "Stripe Account Connected Successfully",
+            "payoutInstruction": "Connect a Stripe account to receive payouts.",
+            "payoutButton": "Connect with Stripe",
+            "submitButton": "Submit for Verification",
+            "resubmitButton": "Resubmit for Verification"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "profile": {
+            "title": "Profile Information",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email Address",
+            "button": "Save Changes",
+            "success": "Profile updated successfully!"
+        },
+        "password": {
+            "title": "Change Password",
+            "current": "Current Password",
+            "new": "New Password",
+            "confirm": "Confirm New Password",
+            "button": "Change Password"
+        },
+        "pin": {
+            "title": "Manage Withdrawal PIN",
+            "isSet": "Your PIN is set. For security, PIN reset is handled via support.",
+            "newPin": "New 4-6 Digit PIN",
+            "confirmPin": "Confirm PIN",
+            "buttonSet": "Set PIN",
+            "emailCode": "Email Verification Code",
+            "buttonConfirm": "Confirm & Set PIN",
+            "errorLength": "PIN must be between 4 and 6 digits.",
+            "errorMatch": "PINs do not match."
+        },
+        "2fa": {
+            "title": "Two-Factor Authentication (2FA)",
+            "description": "Enhance your account security by requiring a second verification step on login and withdrawals.",
+            "enableModalTitle": "Enable 2FA",
+            "disableModalTitle": "Disable 2FA",
+            "enableStep1": "1. Scan the QR code with your authenticator app.",
+            "enableStep2": "Or manually enter this key:",
+            "enableStep3": "2. Enter the 6-digit code from your app.",
+            "verificationCode": "Verification Code",
+            "buttonVerifyEnable": "Verify & Enable",
+            "disablePrompt": "To confirm, please enter a 6-digit code from your authenticator app.",
+            "authCode": "Authentication Code",
+            "buttonVerifyDisable": "Confirm & Disable"
+        }
+    }
+  },
+  "admin": {
+    "title": "Admin: {{tab}}",
+    "loginPage": {
+        "title": "Admin Portal",
+        "subtitle": "Please login to continue.",
+        "emailPlaceholder": "Admin Email",
+        "passwordPlaceholder": "Admin Password",
+        "button": "Login",
+        "return": "Return to user login",
+        "footer": "© Optivus Protocol. Admin Access."
+    },
+    "sidebar": {
+        "overview": "Overview",
+        "userManagement": "User Management",
+        "kycManagement": "KYC Management",
+        "withdrawals": "Withdrawals",
+        "transactions": "Transactions",
+        "role": "Administrator"
+    },
+    "overview": {
+        "title": "Admin Dashboard",
+        "masterDashboardTitle": "Master Account Dashboard",
+        "totalRefEarnings": "Total Referral Earnings",
+        "balance": "Balance",
+        "withdrawalsCard": {
+            "title": "Withdrawal Management",
+            "subtitle": "Manage and withdraw the master account's balance.",
+            "link": "Go to Withdrawals →"
+        },
+        "platformControlsTitle": "Platform Controls & Overview",
+        "totalUserEarnings": "Total User Referral Earnings",
+        "totalUserEarningsDesc": "The cumulative amount of commissions and bonuses distributed to all users.",
+        "protocolBalance": "Remaining Protocol Balance",
+        "protocolBalanceDesc": "This is the remaining balance from fees available for withdrawal by the protocol administrators.",
+        "totalUsers": "Total Users",
+        "pendingWithdrawals": "Pending Withdrawals",
+        "masterAccountCard": {
+            "title": "Master Account",
+            "desc": "This is the premade account from which all referral chains stem.",
+            "username": "Username:",
+            "refCode": "Ref Code:"
+        },
+        "globalWithdrawalsCard": {
+            "title": "Global Withdrawal Controls",
+            "allUserWithdrawals": "All User Withdrawals",
+            "desc": "This switch immediately pauses or unpauses withdrawals for all users on the platform."
+        }
+    },
+    "userManagement": {
+        "title": "User Management",
+        "createButton": "Create Tier 2 Account",
+        "searchPlaceholder": "Search by name, email, or username...",
+        "table": {
+            "name": "Name",
+            "email": "Email",
+            "balance": "Balance",
+            "status": "Status",
+            "actions": "Actions",
+            "manage": "Manage"
+        }
+    },
+    "userDetailModal": {
+        "title": "Manage User: {{name}}",
+        "info": "Account Info",
+        "email": "Email:",
+        "username": "Username:",
+        "kycStatus": "KYC Status:",
+        "adjustBalance": "Adjust Balance",
+        "accountStatus": "Account Status",
+        "withdrawalStatus": "Withdrawal Status",
+        "save": "Save Changes",
+        "cancel": "Cancel",
+        "success": "User updated successfully!"
+    },
+    "createUserModal": {
+        "title": "Create New Tier 2 Account",
+        "desc": "Manually create a new user account. This account will not require a payment fee. You can optionally assign a referrer.",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "username": "Username",
+        "referrer": "Referrer's Username (Optional)",
+        "password": "Password",
+        "passwordNote": "A default password is provided. The user can change this after logging in.",
+        "button": "Create User"
+    },
+    "transactions": {
+        "title": "Global Transaction History"
+    },
+    "withdrawals": {
+        "title": "Withdrawal Management",
+        "method": "Method",
+        "noRequests": "There are no pending withdrawal requests.",
+        "approve": "Approve",
+        "deny": "Deny"
+    },
+    "kyc": {
+        "title": "KYC Management",
+        "submitted": "Submitted:",
+        "addressDetails": "Address Details",
+        "viewDocument": "View Document",
+        "noRequests": "There are no pending KYC requests.",
+        "rejectionModal": {
+            "title": "Reject KYC Submission",
+            "prompt": "Please provide a reason for rejecting the submission for {{name}}.",
+            "reasonLabel": "Rejection Reason (optional)",
+            "reasonPlaceholder": "e.g., Document was blurry.",
+            "confirm": "Confirm Rejection"
+        }
+    }
+  }
+}
