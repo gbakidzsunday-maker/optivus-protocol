@@ -1,0 +1,686 @@
+
+{
+  "header": {
+    "home": "Inicio",
+    "whitepaper": "Whitepaper",
+    "contact": "Contacto",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "dashboard": "Panel",
+    "logout": "Cerrar Sesión",
+    "welcome": "Bienvenido, {{name}}",
+    "launch_app": "Lanzar App",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "pre_title": "Infraestructura DeFi modular de última generación<br/>para finanzas escalables y sin permisos.",
+      "title": "Adueñate de tu valor.<br/>Haz crecer tu<br/>red.",
+      "tagline": "$OPTIV es nuestra Reserva de Valor impulsada por OPTIVision",
+      "cta": "COMENZAR – TARIFA ÚNICA DE £50"
+    },
+    "ideas_section": {
+      "title": "Dando Vida a las<br/>Ideas",
+      "subtitle": "Protocolo Optivus: La Forma Inteligente de Ganar. Apuesta,<br/> refiere y crece con $OPTIV — el activo de última generación<br/> para ingresos pasivos y valor a largo plazo."
+    },
+    "vision_section": {
+      "title": "OPTIVision",
+      "feature1_title": "Compra $OPTIV. Directo, Rápido, Seguro.",
+      "feature1_desc": "El Protocolo Optivus simplifica la inversión en tu futuro: sin terceros, sin demoras. Compra $OPTIV al instante en el sitio con total transparencia y control.",
+      "feature2_title": "Refiere con Optivus. Gana Sin Límites.",
+      "feature2_desc": "El Protocolo Optivus convierte tu red en un motor de crecimiento con referidos inteligentes impulsados por blockchain. Comparte. Gana. Expande – sin esfuerzo y de forma transparente, con recompensas en las que puedes confiar.",
+      "feature3_title": "Apuesta $OPTIV. Crece con Propósito.",
+      "feature3_desc": "El Protocolo Optivus potencia tu futuro financiero con una infraestructura Web3 segura y escalable. Gana recompensas mientras apoyas la innovación de blockchain de próxima generación – rápido, confiable y construido para durar."
+    }
+  },
+  "footer": {
+    "about": "Acerca de / Whitepaper",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad",
+    "follow_us": "Síguenos en",
+    "copyright": "© {{year}} Optivus Protocol. Todos los derechos reservados."
+  },
+  "common": {
+    "backToHome": "Volver a Inicio",
+    "copied": "¡Copiado!",
+    "copy": "Copiar",
+    "or": "O",
+    "status": {
+      "completed": "Completado",
+      "pending": "Pendiente",
+      "failed": "Fallido",
+      "active": "Activo",
+      "frozen": "Congelado",
+      "paused": "Pausado"
+    }
+  },
+  "forms": {
+    "errors": {
+      "passwordsDoNotMatch": "Las contraseñas no coinciden.",
+      "generic": "Por favor, corrige los errores antes de enviar.",
+      "usernameTaken": "El nombre de usuario ya está en uso.",
+      "referralCodeRequired": "Se requiere un código de referencia.",
+      "fieldRequired": "Este campo es obligatorio."
+    }
+  },
+  "loginPage": {
+    "title": "¡Bienvenido de Nuevo!",
+    "subtitle": "Inicia sesión con tus datos personales para acceder al panel de usuario.",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta? ",
+    "signUp": "Regístrate",
+    "areYouAdmin": "¿Eres administrador? ",
+    "adminLogin": "Inicio de Sesión de Administrador",
+    "form": {
+      "email": "Correo Electrónico",
+      "password": "Contraseña"
+    },
+    "2fa": {
+      "title": "Ingresar Código 2FA",
+      "subtitle": "Ingresa el código de tu aplicación de autenticación para continuar.",
+      "label": "Código 2FA"
+    },
+    "buttons": {
+      "login": "Iniciar Sesión",
+      "verify": "Verificar"
+    }
+  },
+  "signupPage": {
+    "authLayout": {
+      "title": "Únete al Protocolo Optivus",
+      "subtitle": "Crea tu cuenta para comenzar a ganar comisiones."
+    },
+    "details": {
+      "title": "Crear Cuenta",
+      "subtitle": "Usa tu código de referencia y añade tus datos personales para crear tu propia cuenta del Protocolo Optivus.",
+      "usernameChecking": "Verificando...",
+      "usernameAvailable": "¡Nombre de usuario disponible!",
+      "usernameTaken": "El nombre de usuario ya está en uso.",
+      "referralCodePlaceholder": "Código de Referencia",
+      "button": "Crear",
+      "hasAccount": "¿Ya tienes una cuenta? "
+    },
+    "payment": {
+      "button": "OBTENER ACCESO"
+    },
+    "paymentModal": {
+      "title": "Completa tu Registro",
+      "subtitle": "Se te cobrará una tarifa única de £50.",
+      "cardholderName": "Nombre del Titular de la Tarjeta",
+      "cardNumber": "Número de Tarjeta",
+      "cardNumberPlaceholder": "0000 0000 0000 0000",
+      "expiry": "Vencimiento (MM/AA)",
+      "expiryPlaceholder": "MM/AA",
+      "cvc": "CVC",
+      "cvcPlaceholder": "123",
+      "button": "Pagar £50 de forma segura"
+    }
+  },
+  "forgotPasswordPage": {
+    "title": "¿Olvidaste tu contraseña?",
+    "subtitle": "No hay problema. Ingresa tu correo electrónico para recibir un enlace de restablecimiento.",
+    "button": "Enviar Enlace de Restablecimiento",
+    "rememberPassword": "¿Recuerdas tu contraseña? ",
+    "success": {
+      "title": "Revisa tu Correo Electrónico",
+      "message": "Si existe una cuenta con ese correo electrónico, se ha enviado un enlace para restablecer la contraseña.",
+      "button": "Volver a Iniciar Sesión"
+    }
+  },
+  "resetPasswordPage": {
+    "title": "Establecer Nueva Contraseña",
+    "subtitle": "Ingresa y confirma tu nueva contraseña a continuación.",
+    "newPassword": "Nueva Contraseña",
+    "confirmNewPassword": "Confirmar Nueva Contraseña",
+    "button": "Restablecer Contraseña",
+    "errorToken": "No se encontró un token de restablecimiento. Por favor, solicita un nuevo enlace de restablecimiento.",
+    "success": {
+      "title": "¡Contraseña Restablecida!",
+      "button": "Volver a Iniciar Sesión"
+    }
+  },
+  "contactPage": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes una pregunta o necesitas ayuda? Rellena el siguiente formulario y nuestro equipo se pondrá en contacto contigo en breve.",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Correo Electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "button": "Enviar Mensaje"
+    },
+    "success": {
+      "title": "¡Mensaje Enviado!",
+      "message": "Tu mensaje ha sido recibido. Nos pondremos en contacto contigo en 24 horas."
+    }
+  },
+  "faqPage": {
+    "title": "Preguntas Frecuentes",
+    "faqs": [
+      {
+        "question": "¿Qué es el Protocolo Optivus?",
+        "answer": "El Protocolo Optivus es un sistema de marketing de afiliados descentralizado y de múltiples niveles. Permite a los usuarios ganar comisiones al referir a otros a la plataforma a través de un enlace de referido único."
+      },
+      {
+        "question": "¿Cómo me uno?",
+        "answer": "Puedes unirte registrándote y pagando una tarifa de entrada única de £50. Esto activa tu cuenta y te da un enlace de referido único para compartir, con el que tendrás acceso al Discord exclusivo para obtener recompensas."
+      },
+      {
+        "question": "¿La tarifa de £50 es reembolsable?",
+        "answer": "No, como se indica en nuestros Términos de Servicio, la tarifa de entrada no es reembolsable. Se utiliza inmediatamente para financiar los pagos de comisiones y cubrir los costos operativos del protocolo."
+      },
+      {
+        "question": "¿Para qué se utiliza la tarifa de registro?",
+        "answer": "Costos operativos del servidor y una gran parte se devuelve a la comunidad a través de recompras de OPTIV y se distribuye de manera justa en competiciones comunitarias."
+      },
+      {
+        "question": "¿Qué es KYC?",
+        "answer": "KYC (Conoce a tu Cliente) es un proceso de verificación requerido para retiros fiduciarios (bancarios) para cumplir con las regulaciones financieras. Implica la presentación de documentos de identificación. Los retiros de criptomonedas no requieren KYC."
+      },
+      {
+        "question": "¿Mis datos están seguros?",
+        "answer": "Sí, nos tomamos la seguridad muy en serio. Utilizamos medidas estándar de la industria para proteger tus datos. Para mayor seguridad, recomendamos encarecidamente habilitar la Autenticación de Dos Factores (2FA) en la configuración de tu cuenta."
+      },
+      {
+        "question": "¿Cómo me uno a Discord?",
+        "answer": "Discord está reservado para aquellos que se registren en nuestro sitio web OPTiVision, donde se proporcionará un enlace directo para garantizar que quienes hayan contribuido sean los únicos beneficiarios de los sorteos."
+      },
+      {
+        "question": "¿Tengo que invitar a gente para unirme a las competiciones?",
+        "answer": "No. Cualquiera que pague su tarifa única podrá participar en las competiciones, pero cuantas más personas traigas, más participaciones obtendrás, aumentando tus probabilidades de ganar sorteos de OPTIV."
+      }
+    ]
+  },
+  "privacyPage": {
+    "title": "Política de Privacidad",
+    "sections": [
+      {
+        "title": "1. Información que Recopilamos",
+        "content": [
+          "Recopilamos la información que nos proporcionas directamente, como cuando creas una cuenta, completas tu perfil de KYC o te pones en contacto con nosotros. Esto puede incluir tu nombre, dirección de correo electrónico e identificación emitida por el gobierno.",
+          "También recopilamos información automáticamente cuando utilizas nuestros servicios, como tu dirección IP, información del dispositivo y el historial de transacciones en nuestra plataforma."
+        ]
+      },
+      {
+        "title": "2. Cómo Usamos la Información",
+        "content": [
+          "Usamos la información que recopilamos para:",
+          "Proporcionar, mantener y mejorar nuestros servicios;",
+          "Procesar transacciones y enviarte información relacionada, incluyendo confirmaciones y recibos;",
+          "Verificar tu identidad y prevenir el fraude (KYC);",
+          "Comunicarnos contigo sobre productos, servicios y eventos;",
+          "Monitorear y analizar tendencias, uso y actividades en conexión con nuestros servicios."
+        ]
+      },
+      {
+        "title": "3. Intercambio de Datos",
+        "content": [
+          "No vendemos tu información personal. Podemos compartir tu información con proveedores y prestadores de servicios de terceros que necesiten acceso a dicha información para realizar trabajos en nuestro nombre (p. ej., procesadores de pago, servicios de verificación de KYC). También podemos compartir información en respuesta a una solicitud de información si creemos que la divulgación está de acuerdo con, o es requerida por, cualquier ley o proceso legal aplicable."
+        ]
+      },
+      {
+        "title": "4. Seguridad",
+        "content": [
+          "Tomamos medidas razonables para ayudar a proteger la información sobre ti contra la pérdida, el robo, el uso indebido y el acceso, la divulgación, la alteración y la destrucción no autorizados."
+        ]
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "White Paper del Protocolo Optivus",
+    "version": "Versión 1.0 | Julio de 2025",
+    "abstract": {
+      "title": "Resumen",
+      "p1": "El Protocolo Optivus está avanzando en la siguiente fase de Web3 a través de una combinación de tokenomics sostenibles, una estrategia de suministro fijo y un crecimiento liderado por la comunidad. Diseñado para la estabilidad y la utilidad a largo plazo, el token OPTIV prioriza el valor del mundo real, no el bombo especulativo. Nuestra misión es crear una economía digital más confiable y centrada en el ser humano, recompensando la participación significativa y eliminando las mecánicas depredadoras de la ecuación de Web3."
+    },
+    "introduction": {
+      "title": "1. Introducción",
+      "p1": "El ecosistema Web3 ha crecido rápidamente, pero a menudo a costa de la sostenibilidad a largo plazo, la confianza del usuario y la utilidad significativa. El Protocolo Optivus introduce un nuevo estándar: un token de reserva de valor (OPTIV) de suministro fijo y consciente de la deflación que incentiva la tenencia, fortalece la participación en la red y se alinea con los principios económicos reales."
+    },
+    "visionMission": {
+      "title": "2. Visión y Misión",
+      "visionTitle": "Visión:",
+      "visionText": "Establecer OPTIV como una reserva de valor digital moderna: escasa, segura y escalable.",
+      "missionTitle": "Misión:",
+      "missionText": "Empoderar a los usuarios a través de una tokenómica justa, recompensas transparentes y una alineación a largo plazo, creando un ecosistema descentralizado que beneficie a los contribuyentes, no solo a los primeros adoptantes o especuladores."
+    },
+    "tokenOverview": {
+      "title": "3. Resumen del Token",
+      "name": "Nombre del Token",
+      "symbol": "Símbolo",
+      "supply": "Suministro Total",
+      "price": "Precio Inicial",
+      "liquidity": "Liquidez Proporcionada en el Lanzamiento",
+      "pairings": "Pares de Lanzamiento",
+      "minting": "Política de Acuñación",
+      "burn": "Mecanismo de Quema",
+      "staking": "Staking"
+    },
+    "tokenomics": {
+      "title": "4. Diseño de la Tokenómica",
+      "sovTitle": "4.1 Arquitectura de Reserva de Valor",
+      "sovText": "A diferencia de los tokens volátiles basados en el bombo, OPTIV está diseñado para ser mantenido:",
+      "sovPoints": [
+        "Suministro Máximo Fijo: 10 mil millones de OPTIV – sin inflación.",
+        "Potencial Deflacionario: Quemable a través de transacciones, tarifas o activado por la gobernanza.",
+        "Listo para Staking: Mecánicas de rendimiento opcionales a través del pool existente, no por inflación."
+      ],
+      "sovConclusion": "Este modelo respalda la confianza a largo plazo y minimiza la volatilidad de los precios.",
+      "liquidityTitle": "4.2 Estrategia de Liquidez",
+      "liquidityText": "Pool de Liquidez Inicial:",
+      "pool1Title": "OPTIV/USDC:",
+      "pool1Text1": "7M OPTIV + $7,000 USDC",
+      "pool1Text2": "Proporciona estabilidad de precios, ideal para tenedores a largo plazo",
+      "pool2Title": "OPTIV/SOL:",
+      "pool2Text1": "3M OPTIV + $3,000 SOL",
+      "pool2Text2": "Reduce el riesgo de exposición a SOL durante las caídas del mercado",
+      "liquidityPoints": [
+        "Protege el precio mínimo",
+        "Fomenta la adopción de la utilidad",
+        "Reduce el impacto de los dumps de tokens"
+      ]
+    },
+    "growthEngine": {
+      "title": "5. Motor de Crecimiento Basado en Referidos",
+      "p1": "Los proyectos de cripto tradicionales solo recompensan a los compradores. Optivus recompensa a los contribuyentes.",
+      "listTitle": "Aspectos Destacados del Modelo de Referidos:",
+      "listItems": [
+        "Estructura de recompensas de múltiples niveles",
+        "Incentiva la expansión real de la red",
+        "Fortalece la propiedad de la comunidad"
+      ],
+      "p2": "Este sistema hace que el proceso de incorporación a Web3 sea inclusivo, transparente y centrado en el ser humano."
+    },
+    "advancedTokenomics": {
+      "title": "6. Tokenómica Avanzada con Propósito",
+      "listItems": [
+        "Distribución Justa: Sin acuñación oculta ni asignaciones injustas a insiders",
+        "Transparencia: Acceso público al flujo de tokens, reservas y recompensas",
+        "Reservas Controladas por la Tesorería: Fondos reservados para desarrollo, marketing y estabilización"
+      ]
+    },
+    "optionalFeatures": {
+      "title": "7. Características Opcionales para una Expansión Sostenible",
+      "burnTitle": "Funcionalidad de Quema (Activación Futura)",
+      "burnText": "Quemas manuales o automatizadas posibles desde:",
+      "burnList": [
+        "Tarifas de transacción",
+        "Uso de la tesorería",
+        "Propuestas de gobernanza"
+      ],
+      "burnGoal": "Objetivo: Fomentar la escasez y el crecimiento del valor a largo plazo",
+      "stakingTitle": "Sistema de Staking (Bajo Revisión)",
+      "stakingList": [
+        "Potencial de rendimiento basado en el bloqueo",
+        "Sin nuevas emisiones de tokens — las recompensas provienen del pool de tokens existente",
+        "Multiplicadores ponderados por tiempo en consideración"
+      ]
+    },
+    "positioning": {
+      "title": "8. Posicionamiento Estratégico",
+      "identity": "Identidad Principal: \"La reserva de valor moderna: escasa, segura, escalable.\"",
+      "pillarsTitle": "Pilares del Mensaje:",
+      "pillars": [
+        "Escasez + Confianza = Valor",
+        "Mentalidad de mantener para ganar",
+        "Estabilidad > especulación"
+      ],
+      "taglinesTitle": "Lemas Clave:",
+      "taglines": [
+        "\"Construido para mantener. Diseñado para crecer.\"",
+        "\"Optivus: Tu futuro en forma digital.\"",
+        "\"Riqueza que puedes poseer, no inflar.\""
+      ]
+    },
+    "marketFit": {
+      "title": "9. Adecuación al Mercado y Audiencias Objetivo",
+      "audienceTitle": "Audiencia—Propuesta de Valor",
+      "audiences": [
+        "Tenedores a Largo Plazo—Protección de activos, suministro fijo, opciones de staking",
+        "Recién Llegados a Cripto—Diseño limpio, caso de uso claro, enfoque de confianza primero",
+        "Usuarios de DeFi—Mecánicas avanzadas, potencial de bóveda/staking",
+        "Audiencias Globales—Cobertura contra la inflación, reserva de valor en mercados inestables"
+      ]
+    },
+    "governance": {
+      "title": "10. Gobernanza y Comunidad",
+      "p1": "El Protocolo Optivus se basa en principios de comunidad primero. Las futuras actualizaciones incluyen:",
+      "listItems": [
+        "Toma de decisiones basada en DAO",
+        "Integraciones de tokens de gobernanza",
+        "Sistemas de propuesta y votación"
+      ],
+      "p2": "Todo diseñado para devolver el poder real a los usuarios, no a equipos centralizados."
+    },
+    "summary": {
+      "title": "11. Resumen Rápido",
+      "inflation_label": "Inflación",
+      "burn_label": "Capacidades de Quema",
+      "staking_label": "Staking",
+      "liquidity_label": "Estrategia de Liquidez",
+      "narrative_label": "Narrativa Principal",
+      "ethos_label": "Ethos de Lanzamiento",
+      "supply": "10,000,000,000 OPTIV",
+      "inflation": "Ninguna (límite fijo)",
+      "burn": "Opcional, no predeterminado",
+      "staking": "Opcional, no dilutivo",
+      "price": "$0.0001",
+      "liquidity": "70% USDC / 30% SOL",
+      "narrative": "\"Oro digital con alcance en el mundo real\"",
+      "ethos": "Comunidad primero, anti-bombo, impulsado por la confianza"
+    },
+    "closing": {
+      "title": "12. Pensamientos Finales",
+      "p1": "El Protocolo Optivus no es solo otro token. Es un movimiento para reclamar lo que se suponía que debía ser la cripto: transparente, justa y empoderadora. Con una tokenómica robusta, un diseño sostenible e incentivos alineados con la comunidad, OPTIV está sentando las bases para una economía digital más estable y gratificante."
+    }
+  },
+  "termsPage": {
+    "title": "Términos de Servicio del Programa del Protocolo Optivus",
+    "lastUpdated": "Última Actualización: 25/07/2025",
+    "intro": "Bienvenido al Programa de Referidos del Protocolo Optivus (\"Programa\"). Este Programa está diseñado para recompensar a nuestra comunidad por compartir el acceso a Optivus y su ecosistema. Al participar, aceptas cumplir con estos Términos de Servicio (\"Términos\"). Por favor, léelos atentamente.",
+    "sections": [
+        { "title": "Descripción General", "content": ["El Programa de Referidos del Protocolo Optivus es una característica opcional disponible para los usuarios de la plataforma OPTiVision. Al referir a nuevos usuarios que compren acceso a los servicios de OPTiVision, los participantes pueden recibir recompensas promocionales limitadas. La participación es completamente voluntaria y no es necesaria para acceder a la plataforma."] },
+        { "title": "Beneficios del Acceso Pagado de OPTiVision", "content": ["Todos los usuarios de pago de OPTiVision reciben:", "Acceso completo a nuestra comunidad exclusiva de Discord", "Acceso a los paneles de staking y análisis de rendimiento", "Elegibilidad para airdrops, competiciones y actualizaciones de la comunidad", "<i>Nota: Las recompensas por referidos son bonos promocionales opcionales y no forman parte de la oferta de productos principal de OPTiVision.</i>"] },
+        { 
+          "title": "Estructura de Recompensas por Referidos", 
+          "content": [
+            "Niveles de Recompensa", "<strong>Nivel 1 (Bono Directo):</strong> Una recompensa por cada usuario referido que se registre y pague.", "<strong>Niveles 2-6 (Bono Indirecto):</strong> Recompensas por referidos hechos por tus invitados, disminuyendo un 15% por nivel (p. ej., el Nivel 2 recibe el 85% del valor del Nivel 1, el Nivel 3 recibe el 70%, etc.).", 
+            "Posibles Recompensas", "Tokens $OPTIV", "Recompensas de staking aumentadas", "Prioridad en airdrops", "Equivalentes en efectivo promocionales (a través de Stripe, PayPal u otros métodos compatibles)", 
+            "<strong>Importante:</strong> Todas las recompensas son discrecionales, de disponibilidad limitada y no están garantizadas. Los bonos por referidos están sujetos a modificación, suspensión o cancelación en cualquier momento a discreción exclusiva de Optivus."
+          ] 
+        },
+        { "title": "Reglas del Programa y Obligaciones del Participante", "content": ["Este Programa es una campaña promocional, no una oportunidad de ingresos ni un programa de inversión. Los participantes deben aceptar lo siguiente:", "Crear múltiples cuentas, participar en fraudes o abusar del sistema de referidos resultará en la descalificación inmediata.", "Los enlaces de referidos no deben distribuirse a través de spam, promociones engañosas o en violación de los Términos de Uso de Optivus.", "Los participantes no pueden presentar el Programa como una fuente de ingresos garantizada o una oportunidad de inversión.", "Los bonos por referidos no dependen del volumen de referidos descendentes más allá del sexto nivel.", "Todas las actividades promocionales deben cumplir con las leyes locales, estatales e internacionales."] },
+        { "title": "Aviso Legal y de Cumplimiento", "content": ["Este Programa no constituye un servicio financiero, una oportunidad de inversión o un esquema de generación de ingresos.", "El Protocolo Optivus no ofrece garantías sobre el valor monetario o la disponibilidad de ningún bono por referido.", "Los participantes son los únicos responsables de declarar cualquier recompensa como ingreso imponible, cuando corresponda.", "El Programa es nulo donde lo prohíba la ley. Los participantes deben cumplir con todas las regulaciones locales pertinentes.", "Los bonos por referidos se financian con el presupuesto de marketing de Optivus, no con los pagos de suscripción de los usuarios.", "Los tokens $OPTIV y los pagos promocionales no representan valores, capital ni instrumentos de inversión.", "La participación es nula si un usuario viola los Términos de Uso de la Plataforma Optivus."] },
+        { "title": "Sorteos Promocionales y Bonos de Lanzamiento", "content": ["Como parte de las campañas de marketing, Optivus puede ofrecer:", "Sorteos opcionales de tokens $OPTIV a usuarios activos y de pago", "Entradas o bonos adicionales por referidos hasta seis niveles", "Recompensas nominales por referidos indirectos (Niveles 2–6), disminuyendo un 15% por nivel para garantizar la equidad y la sostenibilidad", "<i>Descargo de responsabilidad: Los sorteos y los bonos de lanzamiento son opcionales y de duración limitada. No tienen un valor monetario garantizado o intrínseco y están sujetos a cambios.</i>"] },
+        { "title": "Administración y Autoridad del Programa", "content": ["Optivus se reserva el derecho de:", "Modificar, suspender o terminar el Programa en cualquier momento sin previo aviso", "Tomar decisiones finales sobre disputas, investigaciones de fraude y evaluaciones de elegibilidad", "Determinar la elegibilidad de los bonos, limitar las recompensas y hacer cumplir las reglas del Programa a su entera discreción", "Para seguir siendo elegible para los bonos por referidos, los participantes deben:", "Mantener una suscripción de pago activa en OPTiVision", "Cumplir con todas las políticas de la plataforma Optivus, incluidos los Términos de Uso", "Asegurarse de que toda la actividad promocional siga siendo legal y esté alineada con las directrices de la plataforma"] },
+        { "title": "Reconocimiento de los Términos", "content": ["Al participar en el Programa de Referidos, reconoces y aceptas que:", "Estás comprando acceso a las herramientas y servicios de OPTiVision, no un producto de inversión", "Los bonos por referidos y los sorteos de tokens son incentivos promocionales opcionales y no están garantizados", "La participación en el Programa de Referidos es secundaria a la utilidad principal y el acceso proporcionado por OPTiVision", "Entiendes y aceptas que todas las recompensas son discrecionales, de naturaleza limitada y pueden ser modificadas o revocadas"] }
+    ],
+    "contact": {
+        "title": "Preguntas y Soporte",
+        "p1": "Si tienes preguntas sobre el Programa de Referidos o estos Términos, contáctanos en:",
+        "p2": "También puedes comunicarte a través de la comunidad de Discord de OPTiVision para obtener soporte y anuncios en tiempo real."
+    }
+  },
+  "testingBanner": {
+    "title": "Modo de Prueba Activo",
+    "description": "Esta aplicación se está ejecutando en un entorno simulado. Todos los datos son datos de prueba.",
+    "userLogin": "Inicio de Sesión de Usuario:",
+    "email": "Correo Electrónico:",
+    "pass": "Contraseña:",
+    "adminLogin": "Inicio de Sesión de Administrador:"
+  },
+  "dashboard": {
+    "title": "Optivus | {{tab}}",
+    "discordAria": "Únete en Discord",
+    "tabs": {
+      "overview": "Resumen",
+      "team": "Equipo",
+      "withdraw": "Retirar",
+      "history": "Historial",
+      "kyc": "KYC",
+      "settings": "Configuración"
+    },
+    "overview": {
+      "welcome": "¡Bienvenido de nuevo, {{name}}!",
+      "subtitle": "Aquí tienes un resumen de la actividad de tu protocolo y tus ganancias.",
+      "totalEarnings": "Ganancias Totales",
+      "totalTeamSize": "Tamaño Total del Equipo",
+      "directReferrals": "Referidos Directos",
+      "downlineTitle": "Tu Línea Descendente",
+      "level": "Nivel",
+      "users": "Usuarios",
+      "earningsFromTier": "Ganancias del Nivel"
+    },
+    "referralCard": {
+      "title": "Comparte y Gana",
+      "linkTab": "Enlace de Referido",
+      "codeTab": "Código de Referido",
+      "shareText": "¡Únete a mí en el Protocolo Optivus y gana comisiones! Usa mi enlace para empezar:",
+      "shareAria": "O comparte directamente en redes sociales:",
+      "socials": {
+        "x": "Compartir en X",
+        "facebook": "Compartir en Facebook",
+        "whatsapp": "Compartir en WhatsApp",
+        "telegram": "Compartir en Telegram",
+        "linkedin": "Compartir en LinkedIn"
+      }
+    },
+    "team": {
+      "title": "Tu Equipo de Referidos",
+      "subtitle": "Visualiza tu línea descendente y sigue su contribución.",
+      "teamSize": "Tamaño Total del Equipo",
+      "directReferrals": "Referidos Directos",
+      "structureTitle": "Estructura del Equipo",
+      "joined": "Se unió el",
+      "earningsFrom": "Ganancias de",
+      "noReferrals": "Aún no has referido a nadie. ¡Comparte tu código de referido para empezar a construir tu equipo!"
+    },
+    "withdraw": {
+      "title": "Retirar Fondos",
+      "balanceTitle": "Saldo Retirable",
+      "form": {
+        "title": "Retirar a través de Stripe",
+        "connectedInfo": "Los pagos se enviarán a tu cuenta de Stripe conectada.",
+        "amountLabel": "Cantidad (£)",
+        "pinLabel": "PIN de Retiro",
+        "pinPlaceholder": "Ingresa tu PIN",
+        "2faLabel": "Código 2FA",
+        "2faPlaceholder": "123456",
+        "button": "Retirar",
+        "noPinError": "Por favor, primero configura un PIN de retiro en Configuración."
+      },
+      "stripe": {
+        "title": "Se Requiere Cuenta de Stripe",
+        "subtitle": "Conecta tu cuenta de Stripe para habilitar los retiros.",
+        "button": "Conectar Cuenta de Stripe"
+      },
+      "kyc": {
+        "title": "Retiros Bloqueados",
+        "subtitle": "Por favor, completa la verificación de KYC para habilitar los retiros a tu cuenta de Stripe.",
+        "button": "Ir a KYC"
+      }
+    },
+    "history": {
+      "title": "Historial de Transacciones",
+      "date": "Fecha",
+      "type": "Tipo",
+      "description": "Descripción",
+      "amount": "Cantidad",
+      "status": "Estado",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "pageOf": "Página {{page}} de {{totalPages}}"
+    },
+    "kyc": {
+      "title": "Verificación KYC",
+      "pending": {
+        "title": "Verificación Pendiente",
+        "message": "Tus documentos están siendo revisados. Esto suele tardar de 1 a 2 días hábiles."
+      },
+      "verified": {
+        "title": "Verificación Completa",
+        "message": "Has sido verificado completamente y puedes acceder a todas las funciones de la plataforma."
+      },
+      "rejected": {
+        "title": "Envío Rechazado",
+        "reason": "Razón: {{reason}}",
+        "noReason": "Razón: no se proporcionó ninguna razón.",
+        "instruction": "Por favor, corrige los problemas y vuelve a enviar tu información a continuación."
+      },
+      "form": {
+        "personalInfo": "Información Personal",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "addressInfo": "Información de la Dirección",
+        "streetAddress": "Dirección",
+        "city": "Ciudad",
+        "postalCode": "Código Postal",
+        "country": "País",
+        "docUpload": "Subida de Documento",
+        "docInstruction": "Sube una imagen clara de tu pasaporte o licencia de conducir.",
+        "payoutMethod": "Configurar Método de Pago",
+        "payoutConnected": "Cuenta de Stripe conectada con éxito",
+        "payoutInstruction": "Conecta una cuenta de Stripe para recibir pagos.",
+        "payoutButton": "Conectar con Stripe",
+        "submitButton": "Enviar para Verificación",
+        "resubmitButton": "Reenviar para Verificación"
+      }
+    },
+    "settings": {
+      "title": "Configuración",
+      "profile": {
+        "title": "Información del Perfil",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Dirección de Correo Electrónico",
+        "button": "Guardar Cambios",
+        "success": "¡Perfil actualizado con éxito!"
+      },
+      "password": {
+        "title": "Cambiar Contraseña",
+        "current": "Contraseña Actual",
+        "new": "Nueva Contraseña",
+        "confirm": "Confirmar Nueva Contraseña",
+        "button": "Cambiar Contraseña"
+      },
+      "pin": {
+        "title": "Gestionar PIN de Retiro",
+        "isSet": "Tu PIN está configurado. Por seguridad, el restablecimiento del PIN se gestiona a través del soporte.",
+        "newPin": "Nuevo PIN de 4-6 dígitos",
+        "confirmPin": "Confirmar PIN",
+        "buttonSet": "Establecer PIN",
+        "emailCode": "Código de Verificación por Correo Electrónico",
+        "buttonConfirm": "Confirmar y Establecer PIN",
+        "errorLength": "El PIN debe tener entre 4 y 6 dígitos.",
+        "errorMatch": "Los PIN no coinciden."
+      },
+      "2fa": {
+        "title": "Autenticación de Dos Factores (2FA)",
+        "description": "Mejora la seguridad de tu cuenta requiriendo un segundo paso de verificación al iniciar sesión y en los retiros.",
+        "enableModalTitle": "Habilitar 2FA",
+        "disableModalTitle": "Deshabilitar 2FA",
+        "enableStep1": "1. Escanea el código QR con tu aplicación de autenticación.",
+        "enableStep2": "O introduce esta clave manualmente:",
+        "enableStep3": "2. Introduce el código de 6 dígitos de tu aplicación.",
+        "verificationCode": "Código de Verificación",
+        "buttonVerifyEnable": "Verificar y Habilitar",
+        "disablePrompt": "Para confirmar, por favor, introduce un código de 6 dígitos de tu aplicación de autenticación.",
+        "authCode": "Código de Autenticación",
+        "buttonVerifyDisable": "Confirmar y Deshabilitar"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin: {{tab}}",
+    "loginPage": {
+      "title": "Portal de Administrador",
+      "subtitle": "Por favor, inicia sesión para continuar.",
+      "emailPlaceholder": "Correo Electrónico de Administrador",
+      "passwordPlaceholder": "Contraseña de Administrador",
+      "button": "Iniciar Sesión",
+      "return": "Volver al inicio de sesión de usuario",
+      "footer": "© Protocolo Optivus. Acceso de Administrador."
+    },
+    "sidebar": {
+      "overview": "Resumen",
+      "userManagement": "Gestión de Usuarios",
+      "kycManagement": "Gestión de KYC",
+      "withdrawals": "Retiros",
+      "transactions": "Transacciones",
+      "role": "Administrador"
+    },
+    "overview": {
+      "title": "Panel de Administrador",
+      "masterDashboardTitle": "Panel de la Cuenta Maestra",
+      "totalRefEarnings": "Ganancias Totales por Referidos",
+      "balance": "Saldo",
+      "withdrawalsCard": {
+        "title": "Gestión de Retiros",
+        "subtitle": "Gestiona y retira el saldo de la cuenta maestra.",
+        "link": "Ir a Retiros →"
+      },
+      "platformControlsTitle": "Controles y Resumen de la Plataforma",
+      "totalUserEarnings": "Ganancias Totales por Referidos de Usuarios",
+      "totalUserEarningsDesc": "La cantidad acumulada de comisiones y bonos distribuidos a todos los usuarios.",
+      "protocolBalance": "Saldo Restante del Protocolo",
+      "protocolBalanceDesc": "Este es el saldo restante de las tarifas disponibles para ser retirado por los administradores del protocolo.",
+      "totalUsers": "Total de Usuarios",
+      "pendingWithdrawals": "Retiros Pendientes",
+      "masterAccountCard": {
+        "title": "Cuenta Maestra",
+        "desc": "Esta es la cuenta predefinida de la que parten todas las cadenas de referidos.",
+        "username": "Usuario:",
+        "refCode": "Código Ref.:"
+      },
+      "globalWithdrawalsCard": {
+        "title": "Controles de Retiro Globales",
+        "allUserWithdrawals": "Todos los Retiros de Usuarios",
+        "desc": "Este interruptor pausa o reanuda inmediatamente los retiros para todos los usuarios de la plataforma."
+      }
+    },
+    "userManagement": {
+      "title": "Gestión de Usuarios",
+      "createButton": "Crear Cuenta de Nivel 2",
+      "searchPlaceholder": "Buscar por nombre, correo electrónico o nombre de usuario...",
+      "table": {
+        "name": "Nombre",
+        "email": "Correo Electrónico",
+        "balance": "Saldo",
+        "status": "Estado",
+        "actions": "Acciones",
+        "manage": "Gestionar"
+      }
+    },
+    "userDetailModal": {
+      "title": "Gestionar Usuario: {{name}}",
+      "info": "Información de la Cuenta",
+      "email": "Correo Electrónico:",
+      "username": "Usuario:",
+      "kycStatus": "Estado de KYC:",
+      "adjustBalance": "Ajustar Saldo",
+      "accountStatus": "Estado de la Cuenta",
+      "withdrawalStatus": "Estado de Retiro",
+      "save": "Guardar Cambios",
+      "cancel": "Cancelar",
+      "success": "¡Usuario actualizado con éxito!"
+    },
+    "createUserModal": {
+      "title": "Crear Nueva Cuenta de Nivel 2",
+      "desc": "Crea manualmente una nueva cuenta de usuario. Esta cuenta no requerirá una tarifa de pago. Opcionalmente, puedes asignar un referente.",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Dirección de Correo Electrónico",
+      "username": "Nombre de Usuario",
+      "referrer": "Nombre de Usuario del Referente (Opcional)",
+      "password": "Contraseña",
+      "passwordNote": "Se proporciona una contraseña predeterminada. El usuario puede cambiarla después de iniciar sesión.",
+      "button": "Crear Usuario"
+    },
+    "transactions": {
+      "title": "Historial Global de Transacciones"
+    },
+    "withdrawals": {
+      "title": "Gestión de Retiros",
+      "method": "Método",
+      "noRequests": "No hay solicitudes de retiro pendientes.",
+      "approve": "Aprobar",
+      "deny": "Denegar"
+    },
+    "kyc": {
+      "title": "Gestión de KYC",
+      "submitted": "Enviado:",
+      "addressDetails": "Detalles de la Dirección",
+      "viewDocument": "Ver Documento",
+      "noRequests": "No hay solicitudes de KYC pendientes.",
+      "rejectionModal": {
+        "title": "Rechazar Envío de KYC",
+        "prompt": "Por favor, proporciona una razón para rechazar el envío de {{name}}.",
+        "reasonLabel": "Razón del Rechazo (opcional)",
+        "reasonPlaceholder": "p. ej., el documento estaba borroso.",
+        "confirm": "Confirmar Rechazo"
+      }
+    }
+  }
+}
